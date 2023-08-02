@@ -3,7 +3,7 @@
 NCSA User Documentation Style Guide
 ====================================
 
-This style guide should be followed when developing, editing, or reviewing NCSA user documentation. Maintaining consistency with the style guide will ensure that NCSA user documentation has a consistent look and feel to improve user readability.
+This style guide should be followed when developing, editing, or reviewing NCSA user documentation. Adhering to the style guide will ensure that NCSA user documentation has a consistent look and feel to improve user readability.
 
 Default Style Manual
 ----------------------
