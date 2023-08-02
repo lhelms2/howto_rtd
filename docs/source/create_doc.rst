@@ -27,4 +27,4 @@ Review/Approval Process
 
 It is recommended that any new document have a minimum of one peer review and one editorial review prior to getting approved to go live.
 
-It is recommended that document edits/revisions, have a minimum of one peer review prior to getting approved to go live.
+For the recommended review/approval process for document edits/revisions see **link**.
