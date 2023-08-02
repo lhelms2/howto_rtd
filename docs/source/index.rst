@@ -8,8 +8,8 @@ This document outlines the style guide that should be followed when developing o
    maxdepth: 2
 
    style
-   create
-   quick
+   :ref: `create`
+   :ref: `quick`
    maintain
-   proto
+   :ref: `proto`
    help
