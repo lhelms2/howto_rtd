@@ -14,11 +14,11 @@ Original: `Delta User Guide`_
 
 .. _Delta User Guide: https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide
 
-readthedocs.io verion (this is mainly to illustrate that the tables and code blocks translate): https://xsede-delta.readthedocs.io/en/latest/
+readthedocs.io version (this is mainly to illustrate that the tables and code blocks translate): https://xsede-delta.readthedocs.io/en/latest/
 
 Nightingale Documentation
 --------------------------
 
-Original: Nightingale Cluster User Guide has been delted from the wiki
+Original: Nightingale Cluster User Guide has been deleted from the wiki
 
 readthedocs.io version: https://ncsa-nightingale.readthedocs-hosted.com/en/latest/index.html
