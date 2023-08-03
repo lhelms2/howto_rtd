@@ -115,7 +115,9 @@ Images should include *meaningful* alt text to support accessibility. The *link*
 Table of Contents
 ------------------
 
-Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is preset in the index.rst file in the *link* NCSA documentation template.
+Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA documentation template`_.
+
+.. _NCSA documentation template: https://github.com/ncsa/user_documentation_template
 
 Acronyms
 ---------
