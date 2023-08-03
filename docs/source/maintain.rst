@@ -9,8 +9,8 @@ We assume the repository has a default that's called "main". When teh readthedoc
 
 Document edits and revisions should be performed through either a pull request or creation of an issue. It is not recommended, in most cases, for an individual to change the document and automatically commit it to the main branch.
 
-Pull Requests
---------------
+Editing Documents Using GitHub Pull Requests
+---------------------------------------------
 
 Here is the process for making a document change using a pull request. In this example, Person A is administratively in charge, person B is the person doing the edit, and person C is another documentation writer that's not in charge of this particular edit.
 
@@ -31,8 +31,10 @@ Here is the process for making a document change using a pull request. In this e
 11. B sees the approve notification, goes to the pull request, sees the approval, checks A's message, and then clicks "merge to main branch"
 12. B checks the readthedocs.io page in a few minutes to make sure the build finished and the changes are correct
 
-Issues
--------
+.. _issues:
+
+Requesting Document Changes Using GitHub Issues
+------------------------------------------------
 
 Instead of sending an email to someone or initaiting the changes yourself and generating a pull request, you can notify the page owners that something needs to be modified/added to a page by creating an issue. Issue creation is preferred over email notifications because it creates a trackable log of requests that the document owner(s) can work through and allows others to address issues when one individual is out of office.
 
