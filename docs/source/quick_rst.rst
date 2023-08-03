@@ -213,18 +213,31 @@ Notes and warnings use the .. note:: and .. warning:: tags, respectively. The co
 Images
 -------
 
-Images can be inserted using .. image:: or .. figure:: .
+Images can be inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg.
 
 A figure is an image with a caption.
 
 ::
-  .. image:: theimage.jpeg
-    :alt: This is the alternative text for the image.
+  
+     .. image:: images/new_bldg-1024x681.jpg
+       :alt: NCSA building.
+       :width: 400
 
-  .. figure:: thefigure.jpeg
-    :alt: This is the alternative text for the figure.
+     .. figure:: images/new_bldg-1024x681.jpg
+       :width: 400
+       :alt:
 
-    This is the caption for the figure.
+       NCSA Building. (this is the caption for the figure)
+
+.. image:: images/new_bldg-1024x681.jpg
+  :alt: NCSA building.
+  :width: 400
+
+.. figure:: images/new_bldg-1024x681.jpg
+  :width: 400
+  :alt:
+
+  NCSA Building. (this is the caption for the figure)
 
 Code Block
 -----------
