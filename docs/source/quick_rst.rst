@@ -12,7 +12,7 @@ This quick start guide is intended to cover the basics of reStructuredText (RST)
 Headings
 ---------
 
-The document title and headings are created using non-alphanumeric 7-bit ASCII characters. Underline each heading (under- and over-line the title) with the chosen character, ensuring the line is *at least* as long as the heading, or title. The below characters match the *link* style guide.
+The document title and headings are created using non-alphanumeric 7-bit ASCII characters. Underline each heading (under- and over-line the title) with the chosen character, ensuring the line is *at least* as long as the heading, or title. The below characters match the :ref:`style`.
 
 ::
  
@@ -112,16 +112,16 @@ This links to the Headings_ section.
 
 ::
 
-  .. style:
+  .. _style:
 
   User Documentation Style Guide
   ================================
 
-This links to the :ref: `style`.
+This links to the :ref:`style`.
 
 ::
 
-  This links to the style_.
+  This links to the :ref:`style`.
 
 The Importance of Indentation
 ------------------------------
