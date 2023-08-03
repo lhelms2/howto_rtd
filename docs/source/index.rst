@@ -9,7 +9,7 @@ This document outlines the style guide that should be followed when developing o
 
    style
    create_doc
-   quick_rst
    maintain
+   quick_rst
    prototypes
    help
