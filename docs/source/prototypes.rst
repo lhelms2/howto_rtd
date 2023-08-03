@@ -1,4 +1,4 @@
-.. proto:
+.. _proto:
 
 Prototype Read the Docs Documents
 ==================================
