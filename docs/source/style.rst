@@ -28,7 +28,7 @@ Use imperative mood and talk to the user in the second person.
 
 Be concise. Avoid unnecessary qualifiers, for example instead of "In order to..." use "To..."
 
-Avoid negatives, where practical, unless in a warning_ warning statement.
+Avoid negatives, where practical, unless in a warning statement.
 
 Avoid unnecessary non-English words, including Latin abbreviations (i.e., e.g., et.al., etc.)
 
@@ -69,9 +69,11 @@ Italics should be used for general emphasis. Use sparingly or the effect will be
 Notes and Warnings
 -------------------
 
-Insert a *link* note for information the user needs to pay particular attention to. Use sparingly or the effect will be lost.
+Insert a note for information the user needs to pay particular attention to. Use sparingly or the effect will be lost.
 
-Insert a *link* warning for information that the user needs to know to avoid a *negative consequence*. Use sparingly or the effect will be lost.
+Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use sparingly or the effect will be lost.
+
+How to insert :ref:`warning` in RST.
 
 Bullet and Numbered Lists
 --------------------------
