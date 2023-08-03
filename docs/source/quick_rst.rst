@@ -137,7 +137,7 @@ If you're having issues with something rendering correctly, check your indentati
 Lists
 ------
 
-For guidelines on when to use bullet or numbered lists, see the *link* style guide.
+For guidelines on when to use bullet or numbered lists, see the :ref:`style`.
 
 .. _bullet:
 
