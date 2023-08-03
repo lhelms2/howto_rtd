@@ -114,14 +114,14 @@ This links to the Headings_ section.
 
   .. _style:
 
-  User Documentation Style Guide
-  ================================
-
-This links to the :ref:`style`.
+  NCSA User Documentation Style Guide
+  ====================================
 
 ::
 
   This links to the :ref:`style`.
+
+This links to the :ref:`style`.
 
 The Importance of Indentation
 ------------------------------
