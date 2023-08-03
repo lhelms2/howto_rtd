@@ -110,7 +110,9 @@ This page is in development. If you have a question that is not answered by othe
 Images
 -------
 
-Images should include *meaningful* alt text to support accessibility. The *link* UIUC Library has links to resources about alt text.
+Images should include *meaningful* alt text to support accessibility. `Web Accessibility in Mind (WebAIM)`_ is a good resource to learn the basics of alt text.
+
+.. _Web Accessibility in Mind (WebAIM): https://webaim.org/techniques/alttext/
 
 Table of Contents
 ------------------
