@@ -16,6 +16,6 @@ For help getting started with Read the Docs, see the `Read the Docs Tutorial`_ p
 
 .. _Read the Docs Tutorial: https://docs.readthedocs.io/en/stable/tutorial/
 
-If you find an issue (editorial error, technical error, needs updating, ...), *link* create an issue.
+If you find an issue (editorial error, technical error, needs updating, ...), see :ref:`issues`.
 
 For anything else, contact XXXXX.
