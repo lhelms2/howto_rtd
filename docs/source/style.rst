@@ -28,7 +28,7 @@ Use imperative mood and talk to the user in the second person.
 
 Be concise. Avoid unnecessary qualifiers, for example instead of "In order to..." use "To..."
 
-Avoid negatives, where practical, unless in a :ref: `warning` warning statement.
+Avoid negatives, where practical, unless in a :ref:`warning` warning statement.
 
 Avoid unnecessary non-English words, including Latin abbreviations (i.e., e.g., et.al., etc.)
 
