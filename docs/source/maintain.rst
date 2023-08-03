@@ -45,9 +45,11 @@ Instead of sending an email to someone or initaiting the changes yourself and ge
 5. Once the Issue description is throughly filled out, click the green "Submit new issue" button towards the bottom-right.
 6. This will create an issue that the person(s) responsible for the documentation will be notified of and can review and modify the document, as needed.
 
+.. _edit_review:
+
 Review/Approval Process
 ------------------------
 
 For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch.
 
-For the recommended review/approval process of new documents, see :ref:`review`.
+For the recommended review/approval process of new documents, see :ref:`create_review`.
