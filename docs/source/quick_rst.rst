@@ -179,6 +179,8 @@ This is a numbered list:
 #. This number was auto-generated
 #. This number was also auto-generated and is the last number on the list
 
+.. _warning:
+
 Notes and Warnings
 -------------------
 
