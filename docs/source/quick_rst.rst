@@ -50,22 +50,22 @@ Bold
 
 To make a word or phrase display in boldface, surround it with double asterisks.
 
-This is an example of **boldface**
-
 ::
 
   This is an example of **boldface**
+
+This is an example of **boldface**
 
 Italics
 ~~~~~~~~
 
 To make a word or phrase display in italics, surround it with single asterisks.
 
-This is an example of *italics*
-
 ::
 
   This is an example of *italics*
+
+This is an example of *italics*
 
 Hyperlinks
 ~~~~~~~~~~~
@@ -75,21 +75,17 @@ $$$$$$$$$$$$$$$$$
 
 To create single word hyperlinks to external targets, insert an underscore after the word and define the target on a separate line. See the example below.
 
-External hyperlink example with Google_.
-
-.. _Google: https://www.google.com
-
 ::
 
   External hyperlink example with Google_.
 
   .. _Google: https://www.google.com
 
+External hyperlink example with Google_.
+
+.. _Google: https://www.google.com
+
 For hyperlinks that include spacing or punctuation, surround the word or phrase with backticks (`) prior to appending the underscore.
-
-This `links to Wikipedia`_
-
-.. _links to Wikipedia: https://en.wikipedia.org
 
 ::
 
@@ -97,18 +93,22 @@ This `links to Wikipedia`_
 
   .. _links to Wikipedia: https://en.wikipedia.org
 
+This `links to Wikipedia`_
+
+.. _links to Wikipedia: https://en.wikipedia.org
+
 Internal targets
 $$$$$$$$$$$$$$$$$
 
 To create hyperlinks to sections within the document, precede the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
 
-This links to the Headings_ section.
-
 ::
 
   This links to the Headings_ section.
 
-**fix** To link to another page within the document, add a label to the section and use the label as the target. See example below. 
+This links to the Headings_ section.
+
+To link to another page within the document, add a label to the section and use the label as the target. See example below. 
 
 ::
 
