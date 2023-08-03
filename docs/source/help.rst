@@ -1,4 +1,4 @@
-.. help:
+.. _help:
 
 Getting Help
 =============
