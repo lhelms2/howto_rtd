@@ -69,8 +69,8 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 
 .. _create_review:
 
-Review/Approval Process
-------------------------
+New RTD Document Review/Approval Process
+-----------------------------------------
 
 It is expected that any new RTD document will have a minimum of one SME peer review and one editorial review prior to getting approved to go live to users.
 
