@@ -47,8 +47,8 @@ Instead of sending an email to someone or initaiting the changes yourself and ge
 
 .. _edit_review:
 
-Review/Approval Process
-------------------------
+Existing RTD Document Review/Approval Process
+----------------------------------------------
 
 For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch.
 
