@@ -8,9 +8,9 @@ A good resource for Sphinx/RST is available here_.
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
 
-For help getting started with Github, see the `Github documentation`_ page.
+For help getting started with GitHub, see the `GitHub documentation`_ page.
 
-.. _Github documentation: https://docs.github.com/en
+.. _GitHub documentation: https://docs.github.com/en
 
 For help getting started with Read the Docs, see the `Read the Docs Tutorial`_ page.
 
