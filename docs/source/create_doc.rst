@@ -67,7 +67,7 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 18. Repeat this process for any additional wiki pages that you want to migrate into your RTD page. You will likely need to copy contents from the rst file that was converted from html to different folders in the GitHub repository to align with the GitHub NCSA user documentaiton template.
 19. Once the conent is complete, proced to the review_.
 
-.. _review:
+.. _create_review:
 
 Review/Approval Process
 ------------------------
@@ -76,4 +76,4 @@ It is expected that any new RTD document will have a minimum of one SME peer rev
 
 This expectation applies to new documentation and existing wiki documentation that is migrated to RTD.
 
-For the recommended review/approval process for document edits/revisions see **link**.
+For the recommended review/approval process for document edits/revisions see :ref:`edit_create`.
