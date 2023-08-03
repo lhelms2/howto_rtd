@@ -76,4 +76,4 @@ It is expected that any new RTD document will have a minimum of one SME peer rev
 
 This expectation applies to new documentation and existing wiki documentation that is migrated to RTD.
 
-For the recommended review/approval process for document edits/revisions see :ref:`edit_create`.
+For the recommended review/approval process for document edits/revisions see :ref:`edit_review`.
