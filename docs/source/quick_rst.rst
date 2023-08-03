@@ -7,6 +7,8 @@ This quick start guide is intended to cover the basics of reStructuredText (RST)
 
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
+.. _headings_rst:
+
 Headings
 ---------
 
@@ -137,6 +139,8 @@ Lists
 
 For guidelines on when to use bullet or numbered lists, see the *link* style guide.
 
+.. _bullet:
+
 Bullet Lists
 ~~~~~~~~~~~~~
 
@@ -157,6 +161,8 @@ This is a bullet list:
 - This is the first bullet
 - This is the second bullet
 - This is the last bullet
+
+.. _numbered:
 
 Numbered Lists
 ~~~~~~~~~~~~~~~~
@@ -238,6 +244,8 @@ Code block is inserted using :: . The content of the code block is then indented
   This is the content of the code block
 
   This is more content and it's still indented
+
+.. _toc:
 
 Table of Contents
 ------------------
