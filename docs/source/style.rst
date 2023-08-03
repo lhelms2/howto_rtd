@@ -36,10 +36,12 @@ Use the serial/Oxford comma.
 
 Use one space between sentences.
 
+.. _headings_style:
+
 Headings
 ----------
 
-In reStructuredText (RST), the below *link* Heading hierarchy should be followed.
+In reStructuredText (RST), the below :ref:`headings_rst` hierarchy should be followed.
 
 ::
 
@@ -84,9 +86,9 @@ Use sentence case.
 
 List items can be full sentences or phrases, but consistency should be maintained within the list.
 
-Use *link* bullet lists for items when the order does not matter.
+Use :ref:`bullet` for items when the order does not matter.
 
-Use *link* numbered lists for items when the order matters.
+Use :ref:`numbered` for items when the order matters.
 
 General Descriptions of NCSA Resources
 ---------------------------------------
@@ -113,7 +115,7 @@ Images should include *meaningful* alt text to support accessibility. The *link*
 Table of Contents
 ------------------
 
-Recommend formatting table of contents' (*link* toctree) with a max depth of 2 for readability. This is preset in the index.rst file in the *link* NCSA documentation template.
+Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is preset in the index.rst file in the *link* NCSA documentation template.
 
 Acronyms
 ---------
