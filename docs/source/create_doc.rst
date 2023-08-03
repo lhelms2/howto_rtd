@@ -23,10 +23,7 @@ To start a new document, you will need access to the NCSA Organization in GitHub
 
 It is expected that new documentation will have at least one editorial review and one SME peer review prior to advertising the RTD link to users. This will help to minimize errors in the initial user-presented product.
 
-1. Use the `NCSA document template`_ from the NCSA GitHub to create your new repository. Instructions on how to create a repository from a template are available on `GitHub`_.
-
-.. _GitHub: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-
+1. Use the `NCSA document template`_ from the NCSA GitHub to create your new repository. Instructions on how to create a repository from a template are available on `GitHub <https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template>`_.
 2. Contact X to import your new repository into the NCSA Read the Docs account. This can completed right after you create your initial GitHub repository, or after you've built it out (or anywhere in between).
 3. *Before* you start adding content into your new repository, it is highly recommended that you create an outline for your documentation. The outline doesn't have to be anything fancy (pen and paper works!) but it *will* save you time in the long run.
 4. Add your content into the various files in your repository, following the :ref:`style`.
