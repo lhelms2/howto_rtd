@@ -3,7 +3,7 @@
 How to Edit and Maintain Documents
 ====================================
 
-The instructions on this page assume that you have an existing page that is in a GitHub repository which feeds an existing readthedocs.io page. If you don't yet have a page in readthedocs.io, see create_. This page details what happens when an existing part of the documentation on a page needs to be modified in some way. 
+The instructions on this page assume that you have an existing page that is in a GitHub repository which feeds an existing readthedocs.io page. If you don't yet have a page in readthedocs.io, see :ref:`create`. This page details what happens when an existing part of the documentation on a page needs to be modified in some way. 
 
 We assume the repository has a default that's called "main". When teh readthedocs.io page builds, it pullsa  copy of the repository at the "head" of the "main" branch and builds that. The head (or latest commit) of the main branch is the definitive, current version of the documentaiton.
 
