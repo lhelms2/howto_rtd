@@ -68,15 +68,6 @@ Bold should be used to emphasize an action. Use sparingly or the effect will be 
 
 Italics should be used for general emphasis. Use sparingly or the effect will be lost.
 
-Notes and Warnings
--------------------
-
-Insert a note for information the user needs to pay particular attention to. Use sparingly or the effect will be lost.
-
-Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use sparingly or the effect will be lost.
-
-How to insert :ref:`warning` in RST.
-
 .. _lists:
 
 Bullet and Numbered Lists
@@ -92,23 +83,6 @@ Use :ref:`bullet` for items when the order does not matter.
 
 Use :ref:`numbered` for items when the order matters.
 
-General Descriptions of NCSA Resources
----------------------------------------
-
-For general descriptions of NCSA resources, recommend maintaining consistency with the `NCSA Facilities Statement Home`_ and `Computing Systems and Services`_ pages, whenever practical.
-
-.. _NCSA Facilities Statement Home: https://wiki.ncsa.illinois.edu/pages/viewpage.action?spaceKey=NFS&title=NCSA+Facilities+Statement+Home
-
-.. _Computing Systems and Services: https://www.ncsa.illinois.edu/expertise/compute-resources/computing-systems-and-services/
-
-
-Standard Blurb for Pages in Development
-----------------------------------------
-
-If a page is still in development but is user-accessible, recommend using the below blurb.
-
-This page is in development. If you have a question that is not answered by other sections of the documentation, please send an email to ...
-
 Images
 -------
 
@@ -122,6 +96,31 @@ Table of Contents
 Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA documentation template`_.
 
 .. _NCSA documentation template: https://github.com/ncsa/user_documentation_template
+
+Notes and Warnings
+-------------------
+
+Insert a note for information the user needs to pay particular attention to. Use sparingly or the effect will be lost.
+
+Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use sparingly or the effect will be lost.
+
+How to insert :ref:`warning` in RST.
+
+General Descriptions of NCSA Resources
+---------------------------------------
+
+For general descriptions of NCSA resources, recommend maintaining consistency with the `NCSA Facilities Statement Home`_ and `Computing Systems and Services`_ pages, whenever practical.
+
+.. _NCSA Facilities Statement Home: https://wiki.ncsa.illinois.edu/pages/viewpage.action?spaceKey=NFS&title=NCSA+Facilities+Statement+Home
+
+.. _Computing Systems and Services: https://www.ncsa.illinois.edu/expertise/compute-resources/computing-systems-and-services/
+
+Standard Blurb for Pages in Development
+----------------------------------------
+
+If a page is still in development but is user-accessible, recommend using the below blurb.
+
+This page is in development. If you have a question that is not answered by other sections of the documentation, please send an email to ...
 
 Acronyms
 ---------
