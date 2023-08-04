@@ -298,9 +298,6 @@ Tables
 Simple Tables
 ~~~~~~~~~~~~~~
 
-Testing Headings
-$$$$$$$$$$$$$$$$$$
-
 Simple tables use = (equal sign) and - (hyphen) to define the heading(s), rows, and columns as shown in the example below. Simple tables are simple to create but have limitations on row and column spanning.
 
 .. code-block:: rst
