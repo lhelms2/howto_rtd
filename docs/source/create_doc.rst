@@ -72,17 +72,23 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 3. Copy the html out of the pop-up window.
 4. Create a blank file on your local machine. This example uses sample_raw.html.
 5. On your local machine, run the magic perl script *link*(attached) to scrub out the code blocks and replace them with <pre>. 
-   html_transform_embedded_code_versB.pl sample_raw.html sample_blocked.html. 
-   this produces sample_blocked.html that has the block features from the wiki fixed.
+
+   - html_transform_embedded_code_versB.pl sample_raw.html sample_blocked.html. 
+   - This produces sample_blocked.html that has the block features from the wiki fixed.
+
 6. Run the resulting file through the "prune" perl script to remove any non-breakable spaces.
-   prune_nbsp_from_html_versB.pl sample_blocked.html sample_blocked_pruned.html
+
+   - prune_nbsp_from_html_versB.pl sample_blocked.html sample_blocked_pruned.html
+
 7. Run the resulting source file through pandoc to produce an .rst file.
-   pandoc -t rst -o sample_blocked_pruned.rst sample_blocked_pruned.html
+
+   - pandoc -t rst -o sample_blocked_pruned.rst sample_blocked_pruned.html
+
 8. If you have not already, create a GitHub repository for the documentation by following the steps in drafting_new_.
 9. Create an empty .rst file in the GitHub repository, if needed, or open the applicable .rst file from the templated files.  Our example is that we'll put the output into sample.rst.
 10. Copy the contents of the final .rst file on your local machine (sample_blocked_pruned.rst in example above) into the GitHub repository file (sample.rst in the example).
 11. In GitHub, click the "Commit changes..." button in the top-right.
-12. put a couple-of-word descriptive tag in the first line right below "Commit changes".
+12. Put a couple-of-word descriptive tag in the first line right below "Commit changes".
 13. In the commit pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
 14. Select "commit directly to main branch" if you're working on an isolated piece and you have permissions.  Select "Create a new branch for this commit and start a pull request." if you need approvals. 
 15. Click "Commit Changes" to enter the changes
