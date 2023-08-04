@@ -77,6 +77,8 @@ Insert a warning for information that the user needs to know to avoid a *negativ
 
 How to insert :ref:`warning` in RST.
 
+.. _lists:
+
 Bullet and Numbered Lists
 --------------------------
 
