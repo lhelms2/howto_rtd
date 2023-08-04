@@ -31,7 +31,7 @@ It is expected that new documentation will have at least one editorial review an
 4. Add your content into the various files in your repository, following the :ref:`style`.
 5. During initial documentation development (before users have access to the RTD link), it is acceptable to build the documentation by committing changes to the main branch. When committing, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
 6. If your repository has been imported into RTD, after you make changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
-7. If changes don't reflect after 3 minutes, check the build for error messages. If there are no build errors, check your RST in the GitHub repository for syntax errors, RST is particularly sensitive to indentation and line spacing.
+7. If changes don't reflect after 3 minutes, check your RST in the GitHub repository for syntax errors, RST is particularly sensitive to indentation and line spacing.
 8. Once the content is complete, proceed to the :ref:`create_review`.
 
 Migrating an Existing Document into RTD
