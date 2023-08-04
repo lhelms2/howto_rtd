@@ -354,7 +354,3 @@ Grid tables are crated using - (hyphen) for row delineators, + (plus sign) for c
 |     6      |     7      |     13    |
 +------------+------------+-----------+
 
-Where to go for help with RST (at NCSA)
------------------------------------------
-
-There is an abundance of Sphinx/RST resources available online but if you're having an issue that you cannot resolve, reach out to XXXX. 
