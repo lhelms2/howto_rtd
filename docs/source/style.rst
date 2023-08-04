@@ -64,9 +64,9 @@ In reStructuredText (RST), the below :ref:`headings_rst` hierarchy should be fol
 Bold and Italics
 -----------------
 
-Bold should be used to emphasize an action. Use sparingly or the effect will be lost.
+Bold should be used to emphasize an action. Use bold sparingly or the effect will be lost.
 
-Italics should be used for general emphasis. Use sparingly or the effect will be lost.
+Italics should be used for general emphasis. Use italics sparingly or the effect will be lost.
 
 .. _lists:
 
@@ -75,9 +75,9 @@ Bullet and Numbered Lists
 
 A list should have a least 3 items; if less than 3, use paragraphs.
 
-Use sentence case.
+Lists should use sentence case.
 
-List items can be full sentences or phrases, but consistency should be maintained within the list.
+List items can be phrases or full sentences, but consistency should be maintained within the list.
 
 Use :ref:`bullet` for items when the order does not matter.
 
@@ -100,9 +100,9 @@ Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is
 Notes and Warnings
 -------------------
 
-Insert a note for information the user needs to pay particular attention to. Use sparingly or the effect will be lost.
+Insert a note for information the user needs to pay particular attention to. Use notes sparingly or the effect will be lost.
 
-Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use sparingly or the effect will be lost.
+Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
 
 How to insert :ref:`warning` in RST.
 
@@ -115,17 +115,10 @@ For general descriptions of NCSA resources, recommend maintaining consistency wi
 
 .. _Computing Systems and Services: https://www.ncsa.illinois.edu/expertise/compute-resources/computing-systems-and-services/
 
-Standard Blurb for Pages in Development
-----------------------------------------
-
-If a page is still in development but is user-accessible, recommend using the below blurb.
-
-This page is in development. If you have a question that is not answered by other sections of the documentation, please send an email to ...
-
 Acronyms
 ---------
 
-Common acronyms (common to a beginner user) such as RAM don't need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
+Common acronyms (common to a beginner user) such as RAM do not need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
 
 Naming Conventions
 --------------------
