@@ -242,7 +242,7 @@ A figure is an image with a caption.
 Code Block
 -----------
 
-Code block is inserted using :: . The content of the code block is then indented under the :: with one blank line below the tag. If you omit the blank line or don't indent, the code block will not render correctly. 
+Code block is inserted using .. code-block:: <langage>. The content of the code block is then indented under the .. code-block:: tag with one blank line below the tag. If you omit the blank line or don't indent, the code block will not render correctly. Adding the language at the end of the tag allows the code block to render with syntax highlighting.
 
 .. code-block:: rst
 
