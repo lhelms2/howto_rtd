@@ -17,10 +17,10 @@ Here is the process for making a document change using a pull request. In this e
 1. A sends an email to B that says, "please add this table to the front page of X documentation".
 2. B goes to the repository and opens the relevant source file for editing.
 3. After doing an initial pass at the table, B goes to the top-right of the page and clicks the 'Commit changes..." button.
-   B adds "initial table add" to the "Commit message".
-   B adds "Added preliminary version of table upon instructions from A.  Table isn't ready yet, but checking in to make sure the structure is correct and check the formatting." to the "Extended description".
-   B selects "create new branch and start a pull request".
-   B clicks the "commit" button.
+   - B adds "initial table add" to the "Commit message".
+   - B adds "Added preliminary version of table upon instructions from A.  Table isn't ready yet, but checking in to make sure the structure is correct and check the formatting." to the "Extended description".
+   - B selects "create new branch and start a pull request".
+   - ﬁB clicks the "commit" button.
 4. B then goes to the pull request and adds a comment @-mentioning A and C, asking them to check the initial version.
 5. A and C receive emails about the comment in the pull request (just like receiving notifications about a comment on a Jira ticket).
 6. A replies to the thread in email, and says "Yep, the structure of the table looks good, let me know when you've filled it out completely.
