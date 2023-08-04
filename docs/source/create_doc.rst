@@ -5,7 +5,7 @@ How to Create a Document
 
 If you have not yet used Read the Docs (RTD), it is highly recommended that you start with the `Read the Docs tutorial`_.
 
-.. _Read the Docs tutorial: https://docs.readthedocs.io/en/stable/tutorial/
+.. _Read the Docs tutorial: https://docs.readthedocs.io/en/stable/tutorial/#creating-a-repository-from-a-template
 
 NCSA Document Template
 -----------------------
