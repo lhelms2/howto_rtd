@@ -17,19 +17,45 @@ Here is the process for making a document change using a pull request. In this e
 1. A sends an email to B that says, "please add this table to the front page of X documentation".
 2. B goes to the repository and opens the relevant source file for editing.
 3. After doing an initial pass at the table, B goes to the top-right of the page and clicks the 'Commit changes..." button.
+   
+   .. image:: images/commit-button.png
+      :alt: GitHub commit button
+      :width: 400
+
    - B adds "initial table add" to the "Commit message".
    - B adds "Added preliminary version of table upon instructions from A.  Table isn't ready yet, but checking in to make sure the structure is correct and check the formatting." to the "Extended description".
-   - B selects "create new branch and start a pull request".
-   - ﬁB clicks the "commit" button.
-4. B then goes to the pull request and adds a comment @-mentioning A and C, asking them to check the initial version.
-5. A and C receive emails about the comment in the pull request (just like receiving notifications about a comment on a Jira ticket).
-6. A replies to the thread in email, and says "Yep, the structure of the table looks good, let me know when you've filled it out completely.
-7. B continues to work on the edits, fills out the table, and then decides the changes are ready.  
-8. B comments again in the pull request, asking A and C to review and approve the changes.
-9. A looks at the repository and then comments in the pull request: "The table is fine in final form. C, please do a syntax and build check, and then B please commit it."
-10. C goes to the pull request and clicks "approve" in the review box.
-11. B sees the approve notification, goes to the pull request, sees the approval, checks A's message, and then clicks "merge to main branch".
-12. B checks the readthedocs.io page in a few minutes to make sure the build finished, and the changes are correct.
+   - B selects "create new branch and start a pull request". This will change the Commit changes pop-up to the Propose changes pop-up.
+
+   .. image:: images/Propose-changes-pop-up-marked.png
+      :alt: GitHub propose changes pop-up
+      :width: 400
+
+   - B clicks the "Propose changes" button.
+4. The Open pull request window then opens and B reviews the comments for completeness and clicks the "Create pull request" button.
+
+   .. image:: images/pull-request.png
+      :alt: GitHub open pull request window
+      :width: 700
+
+5. B then goes to the pull request and adds a comment @-mentioning A and C, asking them to check the initial version.
+
+   .. image:: images/pull-comment.png
+      :alt: GitHub pull request comment window
+      :width: 700
+
+6. A and C receive emails about the comment in the pull request (just like receiving notifications about a comment on a Jira ticket).
+7. A replies to the thread in email, and says "Yep, the structure of the table looks good, let me know when you've filled it out completely.
+8. B continues to work on the edits, fills out the table, and then decides the changes are ready.  
+9. B comments again in the pull request, asking A and C to review and approve the changes.
+10. A looks at the repository and then comments in the pull request: "The table is fine in final form. C, please do a syntax and build check, and then B please commit it."
+11. C goes to the pull request and clicks "approve" in the review box.
+12. B sees the approve notification, goes to the pull request, sees the approval, checks A's message, and then clicks "merge pull request".
+
+   .. image:: images/merge-pull.png
+      :alt: GitHub merge pull request button
+      :width: 600
+
+13. B checks the readthedocs.io page in a few minutes to make sure the build finished, and the changes are correct.
 
 .. _issues:
 
