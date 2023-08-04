@@ -30,9 +30,9 @@ It is expected that new documentation will have at least one editorial review an
 3. *Before* you start adding content into your new repository, it is highly recommended that you create an outline for your documentation. The outline doesn't have to be anything fancy (pen and paper works!) but it *will* save you time in the long run.
 4. Add your content into the various files in your repository, following the :ref:`style`.
 
-.. note::
+   .. note::
 
-   During initial documentation development (before users have access to the RTD link), it is acceptable to build the documentation by committing changes to the main branch.
+      During initial documentation development (before users have access to the RTD link), it is acceptable to build the documentation by committing changes to the main branch.
 
    - To edit a file, click on the pen icon in the top-right.
 
