@@ -34,7 +34,7 @@ It is expected that new documentation will have at least one editorial review an
 
       .. image:: images/edit-button-marked.png
          :alt: GitHub edit button
-         :width: 500
+         :width: 700
 
    - To save the changes, commit them using the green "Commit changes..." button in the top-right.
 
