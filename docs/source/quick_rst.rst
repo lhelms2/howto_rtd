@@ -36,7 +36,7 @@ Paragraphs
 -----------
 Paragraphs are created by separating text with blank lines, see the example below.
 
-::
+.. code-block:: rst
 
   This is a paragraph.
 
