@@ -30,6 +30,10 @@ It is expected that new documentation will have at least one editorial review an
 3. *Before* you start adding content into your new repository, it is highly recommended that you create an outline for your documentation. The outline doesn't have to be anything fancy (pen and paper works!) but it *will* save you time in the long run.
 4. Add your content into the various files in your repository, following the :ref:`style`.
 
+.. note::
+
+   During initial documentation development (before users have access to the RTD link), it is acceptable to build the documentation by committing changes to the main branch.
+
    - To edit a file, click on the pen icon in the top-right.
 
       .. image:: images/edit-button-marked.png
@@ -42,15 +46,14 @@ It is expected that new documentation will have at least one editorial review an
          :alt: GitHub commit button
          :width: 400
 
-   - In the commit pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
+   - In the commit changes pop-up window, include a brief description of the change(s) you made to the file inn the 'Commit message' line and a more detailed description in the 'Extended description'.
 
       .. image:: images/commit-pop-up.png
          :alt: GitHub commit changes pop-up window
          :width: 400
 
-5. During initial documentation development (before users have access to the RTD link), it is acceptable to build the documentation by committing changes to the main branch.
-6. If your repository has been imported into RTD, after you make changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
-7. If changes don't reflect after 3 minutes, check your RST in the GitHub repository for syntax errors, RST is particularly sensitive to indentation and line spacing. Using the preview function in GitHub can help you identify most issues prior to committing the changes.
+5. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
+6. If changes don't reflect after 3 minutes, check your RST in the GitHub repository for syntax errors, RST is particularly sensitive to indentation and line spacing. Using the preview function in GitHub can help you identify most issues prior to committing the changes.
 
    .. image:: images/preview-button.png
       :alt: GitHub preview button
@@ -102,7 +105,7 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 New RTD Document Review/Approval Process
 -----------------------------------------
 
-It is expected that any new RTD document will have a minimum of one SME peer review and one editorial review prior to getting approved to go live to users.
+It is expected that any new RTD document will have a minimum of one SME peer review and one editorial review prior to being approved to go live to users.
 
 This expectation applies to new documentation and existing wiki documentation that is migrated to RTD.
 
