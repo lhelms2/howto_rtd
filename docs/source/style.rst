@@ -22,19 +22,32 @@ NCSA user documentation should follow the Association for Computing Machinery `(
 General Writing Guidelines
 ---------------------------
 
-Use active voice when writing.
+- Use active voice when writing.
 
-Use imperative mood and talk to the user in the second person.
+  - Example:
+    
+    - NCSA experts manage the complex requirements surrounding sensetive data.
 
-Be concise. Avoid unnecessary qualifiers, for example instead of "In order to..." use "To..."
+  - NOT
 
-Avoid negatives, where practical, unless in a warning statement.
+    - The complex requirements surrounding sensetive data are managed by NCSA experts.
 
-Avoid unnecessary non-English words, including Latin abbreviations (i.e., e.g., et.al., etc.)
+- Use imperative mood and talk to the user in the second person.
 
-Use the serial/Oxford comma.
+  - Example:
 
-Use one space between sentences.
+    - Email help@ncsa.illinois.edu to request a refund.
+
+  - NOT
+
+    - Projects wishing to request a refund should email help@ncsa.illinois.edu.
+
+- Be concise and avoid unnecessary qualifiers. For example, instead of "In order to..." use "To..."
+- Avoid negatives, where practical, unless in a warning statement.
+- Avoid unnecessary non-English words, including Latin abbreviations (i.e., e.g., et.al., etc.)
+- Use the serial/Oxford comma.
+- Use one space between sentences.
+- Common acronyms (to a non-expert user) such as RAM do not need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
 
 .. _headings_style:
 
@@ -114,11 +127,6 @@ For general descriptions of NCSA resources, recommend maintaining consistency wi
 .. _NCSA Facilities Statement Home: https://wiki.ncsa.illinois.edu/pages/viewpage.action?spaceKey=NFS&title=NCSA+Facilities+Statement+Home
 
 .. _Computing Systems and Services: https://www.ncsa.illinois.edu/expertise/compute-resources/computing-systems-and-services/
-
-Acronyms
----------
-
-Common acronyms (common to a beginner user) such as RAM do not need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
 
 Naming Conventions
 --------------------
