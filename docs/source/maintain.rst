@@ -9,6 +9,8 @@ These instructions assume the repository has a default that's called "main". Whe
 
 Document edits and revisions should be performed through either a pull request or creation of an issue. It is not recommended, in most cases, for an individual to change the document and automatically commit the change to the main branch.
 
+.. _pull_request:
+
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
