@@ -3,18 +3,20 @@
 Quick Start Guide to reStructuredText
 ======================================
 
-This quick start guide is intended to cover the basics of reStructuredText (RST) so that you can start generating your user documentation. More information about RST is available `here`_.
+This quick start guide is intended to cover the basics of reStructuredText (reST) so that you can start generating your user documentation. More information about RST is available `here`_.
 
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
-The Importance of Indentation
-------------------------------
+The Importance of Indentation and Line Spacing
+-----------------------------------------------
 
-Indentation is critical in RST. Many RST tags begin with a certain set of characters and those are assumed to start at the left margin and the Sphinx engine then assumes that everything after the tag that is indented is also part of that tag. 
+Indentation is critical in reST. Many reST tags begin with a certain set of characters and those are assumed to start at the left margin and the Sphinx engine then assumes that everything after the tag that is indented is also part of that tag. 
 
 If you fail to indent tag contents after the tag, they will not be associated with the tag. 
 
 If you inadvertently indent contents after a tag that you do not want associated with that tag, they are assumed to be associated with the tag and may result in rendering issues.
+
+Line spacing is also important in reST. Having a blank line where one *is not* supposed to be or the absence of a blank line where one *is* supposed to be will result in rendering issues.
 
 If you are having issues with something rendering correctly, check your indentation and line spacing first!
 
@@ -23,7 +25,7 @@ If you are having issues with something rendering correctly, check your indentat
 Headings
 ---------
 
-The document title and headings are created using non-alphanumeric 7-bit ASCII characters. Underline each heading (under- and over-line the title) with the chosen character, ensuring the line is *at least* as long as the heading, or title text. The below characters match the :ref:`style`.
+The document title and headings are created using non-alphanumeric 7-bit ASCII characters. Underline each heading (under- and over-line the title) with the chosen character, ensuring the character line is *at least* as long as the heading or title text. The below characters match the :ref:`style`.
 
 .. code-block:: rst
  
@@ -45,7 +47,7 @@ The document title and headings are created using non-alphanumeric 7-bit ASCII c
 
 Paragraphs
 -----------
-Paragraphs are created by separating text with blank lines, see the example below.
+Create paragraphs by separating text with blank lines, see the example below.
 
 .. code-block:: rst
 
@@ -59,7 +61,7 @@ Inline Markup
 Bold
 ~~~~~
 
-To make a word or phrase display in boldface, surround it with double asterisks.
+Make a word or phrase display in boldface by surrounding it with double asterisks.
 
 .. code-block:: rst
 
@@ -70,7 +72,7 @@ This is an example of **boldface**
 Italics
 ~~~~~~~~
 
-To make a word or phrase display in italics, surround it with single asterisks.
+Make a word or phrase display in italics by surrounding it with single asterisks.
 
 .. code-block:: rst
 
@@ -84,7 +86,7 @@ Hyperlinks
 External Targets
 $$$$$$$$$$$$$$$$$
 
-To create single word hyperlinks to external targets, insert an underscore after the word and define the target on a separate line. See the example below.
+Create single-word hyperlinks to external targets by appending an underscore to the end of the word and defining the target on a separate line. See the example below.
 
 .. code-block:: rst
 
@@ -96,7 +98,7 @@ External hyperlink example with Google_.
 
 .. _Google: https://www.google.com
 
-For hyperlinks that include spacing or punctuation, surround the word or phrase with backticks (`) prior to appending the underscore.
+Create hyperlinks that include spacing or punctuation by surrounding the word or phrase with backticks (`) prior to appending the underscore.
 
 .. code-block:: rst
 
@@ -108,7 +110,7 @@ This `links to Wikipedia`_
 
 .. _links to Wikipedia: https://en.wikipedia.org
 
-You can also define the target inline as shown below.
+Targets can also be defined inline, as shown below.
 
 .. code-block:: rst
 
@@ -117,7 +119,7 @@ You can also define the target inline as shown below.
 Internal targets
 $$$$$$$$$$$$$$$$$
 
-To create hyperlinks to sections within the page, precede the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
+Create hyperlinks to sections within the page by preceding the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
 
 .. code-block:: rst
 
@@ -125,7 +127,7 @@ To create hyperlinks to sections within the page, precede the heading with an un
 
 This links to the Headings_ section.
 
-To link to another page within the document, add a label to the section and use the label as the target. See example below. 
+Link to another page section within the document by adding a label to the section and using the label as the target. See example below. 
 
 .. code-block:: rst
 
@@ -143,16 +145,16 @@ This links to the :ref:`style`.
 Lists
 ------
 
-For guidelines on when to use bullet or numbered lists, see :ref:`lists` in the style guide.
+For guidelines on using bullet and numbered lists, see :ref:`lists` in the style guide.
 
 .. _bullet:
 
 Bullet Lists
 ~~~~~~~~~~~~~
 
-Bullet lists can be created using - (hyphen), * (asterisk), or + (plus sign). 
+Bullet lists are created using - (hyphen), * (asterisk), or + (plus sign). 
 
-There must be a blank line inserted before the first item in the list and after the last item.
+There must be a blank line before the first item in the list and after the last item.
 
 .. code-block:: rst
 
@@ -162,18 +164,22 @@ There must be a blank line inserted before the first item in the list and after 
   - This is the second bullet
   - This is the last bullet
 
+  A new paragraph.
+
 This is a bullet list:
 
 - This is the first bullet
 - This is the second bullet
 - This is the last bullet
 
+A new paragraph.
+
 .. _numbered:
 
 Numbered Lists
 ~~~~~~~~~~~~~~~~
 
-Numbered lists can be created by manually numbering each item (1, 2, 3, ...) or through automatic numbering using #. 
+Numbered lists are created by manually numbering each item (1, 2, 3, ...) or through automatic numbering using #. 
 
 Same as a bullet list, there must be a blank line before the first item and after the last item.
 
@@ -194,7 +200,7 @@ This is a numbered list:
 Images
 -------
 
-Images can be inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg.
+Images are inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg.
 
 A figure is an image with a caption.
 
@@ -263,7 +269,7 @@ Call the label in another section of the document as shown below.
 Table of Contents
 ------------------
 
-A table of contents is created with the tag .. toctree:: . The recommended max depth of a toctree is 2. 
+Create a table of contents with the tag .. toctree:: . The recommended max depth of a toctree is 2. 
 
 There is an example of a toctree on the landing page of this how to document (view on GitHub).
 
@@ -280,7 +286,7 @@ There is an example of a toctree on the landing page of this how to document (vi
 Notes and Warnings
 -------------------
 
-Notes and warnings use the tags .. note:: and .. warning:: , respectively. The content of the note is then indented on subsequent lines.
+Notes and warnings use the tags .. note:: and .. warning:: , respectively. The content of the note or warning is then indented on subsequent lines, with one blank line below the tag.
 
 .. code-block:: rst
 
@@ -290,7 +296,7 @@ Notes and warnings use the tags .. note:: and .. warning:: , respectively. The c
 
   .. warning::
 
-    This is a warning. Warnings should be used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
+    This is a warning. Warnings are used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
 
 .. note::
 
@@ -298,7 +304,7 @@ Notes and warnings use the tags .. note:: and .. warning:: , respectively. The c
 
 .. warning::
 
-  This is a warning. Warnings should be used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
+  This is a warning. Warnings are used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
 
 Tables
 -------
@@ -336,7 +342,7 @@ Addends Sum
 Grid Tables
 ~~~~~~~~~~~~
 
-Grid tables are crated using - (hyphen) for row delineators, + (plus sign) for corner delineators, and | (vertical bar) for column delineators. 
+Grid tables use - (hyphen) for row delineators, + (plus sign) for corner delineators, and | (vertical bar) for column delineators. 
 
 Grid tables are more cumbersome to create but offer more flexibility in row and column spanning.
 
@@ -369,7 +375,7 @@ Grid tables are more cumbersome to create but offer more flexibility in row and 
 Comments
 ---------
 
-Comments can be inserted using the .. tag. Indent the content of the comment.
+Comments are inserted using the .. tag. Indent the content of the comment.
 
 .. code-block:: rst
 
