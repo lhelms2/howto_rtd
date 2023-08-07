@@ -3,7 +3,7 @@
 NCSA User Documentation Style Guide
 ====================================
 
-This style guide should be followed when developing, editing, or reviewing NCSA user documentation. Adhering to the style guide will ensure that NCSA user documentation has a consistent look and feel to improve user readability.
+Follow this style guide when developing, editing, or reviewing NCSA user documentation. Adhering to the style guide will ensure that NCSA user documentation has a consistent look and feel for user readability.
 
 Default Style Manual
 ----------------------
@@ -22,7 +22,7 @@ NCSA user documentation should follow the Association for Computing Machinery `(
 General Writing Guidelines
 ---------------------------
 
-- Use active voice when writing.
+- Write in the active voice.
 
   - Example:
     
@@ -32,7 +32,7 @@ General Writing Guidelines
 
     - The complex requirements surrounding sensitive data are managed by NCSA experts.
 
-- Use imperative mood and talk to the user in the second person.
+- Write in the imperative mood and talk to the user in the second person.
 
   - Example:
 
@@ -43,20 +43,19 @@ General Writing Guidelines
     - Projects wishing to request a refund should email help@ncsa.illinois.edu.
 
 - Be concise and avoid unnecessary qualifiers. For example, instead of "In order to..." use "To..."
-- Avoid negatives, where practical, unless in a warning statement.
 - Avoid unnecessary non-English words, including Latin abbreviations (i.e., e.g., et.al., etc.)
 - Use the serial/Oxford comma.
-- Use one space between sentences.
-- Common acronyms (to a non-expert user) such as RAM do not need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
+- Insert *one* space between sentences.
+- Common acronyms, such as RAM, do not need to be defined at first use, all others should be defined at first use on a page (unless it is already defined on the documentation’s landing page).
 
 .. _headings_style:
 
 Headings
 ----------
 
-In reStructuredText (RST), the below :ref:`headings_rst` hierarchy should be followed.
+Follow the below :ref:`headings_rst` heirarchy in reStructuredText (reST).
 
-::
+.. code-block:: rst
 
   #################################
   Top Document Title (pound signs)
@@ -77,52 +76,52 @@ In reStructuredText (RST), the below :ref:`headings_rst` hierarchy should be fol
 Bold and Italics
 -----------------
 
-Bold should be used to emphasize an action. Use bold sparingly or the effect will be lost.
+Boldface text emphasizes an action. Use boldface sparingly or the effect will be lost.
 
-Italics should be used for general emphasis. Use italics sparingly or the effect will be lost.
+Italics are for general emphasis. Use italics sparingly or the effect will be lost.
 
 .. _lists:
 
 Bullet and Numbered Lists
 --------------------------
 
-A list should have a least 3 items; if less than 3, use paragraphs.
+A list has at least 3 items; if less than 3, use paragraphs.
 
-Lists should use sentence case.
+Lists use sentence case.
 
-List items can be phrases or full sentences, but consistency should be maintained within the list.
+List items can be phrases or full sentences but maintain consistency within the list.
 
-Use :ref:`bullet` for items when the order does not matter.
+Use :ref:`bullet` for items when the order *does not* matter.
 
 Use :ref:`numbered` for items when the order matters.
 
 Images
 -------
 
-Images should include *meaningful* alt text to support accessibility. `Web Accessibility in Mind (WebAIM)`_ is a good resource to learn the basics of alt text.
+Include *meaningful* alt text in images to support accessibility. `Web Accessibility in Mind (WebAIM)`_ is a good resource to learn the basics of alt text.
 
 .. _Web Accessibility in Mind (WebAIM): https://webaim.org/techniques/alttext/
 
 Table of Contents
 ------------------
 
-Recommend formatting a :ref:`toc` with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA documentation template`_.
+The recommend formatting for a :ref:`toc` is with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA documentation template`_.
 
 .. _NCSA documentation template: https://github.com/ncsa/user_documentation_template
 
 Notes and Warnings
 -------------------
 
-Insert a note for information the user needs to pay particular attention to. Use notes sparingly or the effect will be lost.
+Notes are for information the user needs to pay particular attention to. Use notes sparingly or the effect will be lost.
 
-Insert a warning for information that the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
+Warnings are for information that the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
 
 How to insert :ref:`warning` in RST.
 
 General Descriptions of NCSA Resources
 ---------------------------------------
 
-For general descriptions of NCSA resources, recommend maintaining consistency with the `NCSA Facilities Statement Home`_ and `Computing Systems and Services`_ pages, whenever practical.
+General descriptions of NCSA resources should maintain consistency with the `NCSA Facilities Statement Home`_ and `Computing Systems and Services`_ pages, whenever practical.
 
 .. _NCSA Facilities Statement Home: https://wiki.ncsa.illinois.edu/pages/viewpage.action?spaceKey=NFS&title=NCSA+Facilities+Statement+Home
 
@@ -131,6 +130,6 @@ For general descriptions of NCSA resources, recommend maintaining consistency wi
 Naming Conventions
 --------------------
 
-Slurm - on first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references should simply be stated as "Slurm" (title case).
+Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references should simply be stated as "Slurm" (title case).
 
-Spack - use title case
+Spack - Use title case
