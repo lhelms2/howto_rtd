@@ -54,9 +54,9 @@ The expectation is that new documentation will have at least one editorial revie
 
       During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch.
 
-        .. image:: images/commit-pop-up.png
-            :alt: GitHub commit changes pop-up window
-            :width: 400
+    .. image:: images/commit-pop-up.png
+         :alt: GitHub commit changes pop-up window
+         :width: 400
 
 5. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
 6. If changes do not reflect after 3 minutes, check your RST in the GitHub repository for syntax errors; RST is particularly sensitive to indentation and line spacing. 
