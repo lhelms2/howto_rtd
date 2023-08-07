@@ -18,4 +18,4 @@ For help getting started with Read the Docs, see the `Read the Docs Tutorial`_ p
 
 If you find an issue (editorial error, technical error, needs updating, ...), see :ref:`issues`.
 
-For anything else, contact XXXXX.
+For anything else, contact XXXX.
