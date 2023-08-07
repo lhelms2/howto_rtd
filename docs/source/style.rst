@@ -116,7 +116,7 @@ Notes are for information the user needs to pay particular attention to. Use not
 
 Warnings are for information that the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
 
-How to insert :ref:`warning` in RST.
+How to insert :ref:`warning` in reST.
 
 General Descriptions of NCSA Resources
 ---------------------------------------
