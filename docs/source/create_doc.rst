@@ -50,9 +50,11 @@ The expectation is that new documentation will have at least one editorial revie
 
    - In the commit changes pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' field and a more detailed description in the 'Extended description' field.
      
-     During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch.
+   - Click the **Commit changes** button.
 
-     .. image:: images/commit-pop-up.png
+     During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+
+     .. image:: images/commit-pop-up-marked.png
          :alt: GitHub commit changes pop-up window
          :width: 400
 
@@ -70,35 +72,56 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 
 .. _here: https://wiki.ncsa.illinois.edu/display/NCSASoftware/GitHub
 
+The expectation is that new RTD documentation, including wiki migrations, will have at least one editorial review AND one SME peer review prior to going live to users. This will minimize errors in the initial user-presented product.
+
 1. Go to the page on the wiki you want to migrate.
 2. Click on the **...** in the upper right and select "View Storage Format" from the menu.
 3. Copy the html out of the pop-up window.
 4. Create a blank file on your local machine. This example uses sample_raw.html.
 5. On your local machine, run the magic perl script :download:`(attached) <documents/html_transform_embedded_code_versA.pl>` to scrub out the code blocks and replace them with <pre>. 
 
-   - html_transform_embedded_code_versB.pl sample_raw.html sample_blocked.html. 
+   .. code-block:: console
+
+      html_transform_embedded_code_versB.pl sample_raw.html sample_blocked.html. 
+
    - This produces sample_blocked.html that has the block features from the wiki fixed.
 
 6. Run the resulting file through the "prune" perl script to remove any non-breakable spaces.
 
-   - prune_nbsp_from_html_versB.pl sample_blocked.html sample_blocked_pruned.html
+   .. code-block:: console
+      
+      prune_nbsp_from_html_versB.pl sample_blocked.html sample_blocked_pruned.html
 
 7. Run the resulting source file through pandoc to produce an .rst file.
 
-   - pandoc -t rst -o sample_blocked_pruned.rst sample_blocked_pruned.html
+   .. code-block:: console
 
-8. If you have not already, create a GitHub repository for the documentation by following the steps in drafting_new_.
-9. Create an empty .rst file in the GitHub repository, if needed, or open the applicable .rst file from the templated files.  Our example is that we'll put the output into sample.rst.
-10. Copy the contents of the final .rst file on your local machine (sample_blocked_pruned.rst in example above) into the GitHub repository file (sample.rst in the example).
+      pandoc -t rst -o sample_blocked_pruned.rst sample_blocked_pruned.html
+
+8. If you have not already, create a GitHub repository for the documentation by following the steps in :ref:`drafting_new`.
+9. Open the applicable .rst file from the templated files or create an empty .rst file in the GitHub repository, if needed. This example will put the output into index.rst.
+10. Copy the contents of the final .rst file on your local machine (sample_blocked_pruned.rst in example above) into the GitHub repository file (index.rst in the example).
 11. In GitHub, click the **Commit changes...** button in the top-right.
-12. Put a couple-of-word descriptive tag in the first line right below "Commit changes".
-13. In the commit pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
-14. Select "commit directly to main branch" if you're working on an isolated piece and you have permissions.  Select "Create a new branch for this commit and start a pull request." if you need approvals. 
-15. Click "Commit Changes" to enter the changes
-16. If you committed directly to the main branch and your GitHub repository has been imported into RTD, after you make changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
-17. If changes don't reflect after 3 minutes, check the build for error messages. If there are no build errors, check your RST in the GitHub repository for syntax errors, RST is particularly sensitive to indentation and line spacing.
-18. Repeat this process for any additional wiki pages that you want to migrate into your RTD page. You will likely need to copy contents from the rst file that was converted from html to different folders in the GitHub repository to align with the GitHub NCSA user documentation template.
-19. Once the content is complete, proceed to the :ref:`create_review`.
+
+    .. image:: images/commit-button.png
+       :alt: GitHub commit changes button
+       :width: 400
+
+    - In the commit pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
+
+    - Click the **Commit changes** button.
+
+      During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+
+      .. image:: images/commit-pop-up-marked.png
+          :alt: GitHub commit changes pop-up window
+          :width: 500
+
+12. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
+13. If changes do not reflect after 3 minutes, check your RST in the GitHub repository for syntax errors; RST is particularly sensitive to indentation and line spacing. 
+14. Repeat this process for any additional wiki pages that you want to migrate into your RTD documentation. You will likely need to copy contents from the .rst file that was converted from html to different files (index, user guide, quick start, help, ...) in the GitHub repository to align with the GitHub NCSA documentation template.
+15. Once the content is complete, submit it to at least one SME peer reviewer AND one editorial reviewer.
+16. Once reviewer comments are incorporated, the new document can be approved to go live to users.
 
 .. _create_review:
 
