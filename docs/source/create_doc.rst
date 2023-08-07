@@ -30,10 +30,6 @@ The expectation is that new documentation will have at least one editorial revie
 3. *Before* you start adding content into your new repository, it is highly recommended that you create an outline for your documentation. The outline does not need to be fancy (pen and paper works!) but it *will* save you time in the long run.
 4. Add your content into the various files in your repository, following the :ref:`style`.
 
-   .. note::
-
-      During initial documentation development (before it goes live to users), it is acceptable to build the                documentation by committing changes to the main branch.
-
    - To edit a file, click on the pencil icon in the top-right.
 
      .. image:: images/edit-button-marked.png
@@ -53,6 +49,10 @@ The expectation is that new documentation will have at least one editorial revie
          :width: 400
 
    - In the commit changes pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' field and a more detailed description in the 'Extended description' field.
+
+   .. note::
+
+      During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch.
 
      .. image:: images/commit-pop-up.png
          :alt: GitHub commit changes pop-up window
