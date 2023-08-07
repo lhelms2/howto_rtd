@@ -3,7 +3,7 @@
 Quick Start Guide to reStructuredText
 ======================================
 
-This quick start guide is intended to cover the basics of reStructuredText (reST) so that you can start generating your user documentation. More information about RST is available `here`_.
+This quick start guide is intended to cover the basics of reStructuredText (reST) so that you can start generating your user documentation. More information about reST is available `here`_.
 
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
