@@ -12,7 +12,7 @@ Document edits and revisions should be performed through either a pull request o
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
-This is the process for making a document changes using a pull request. These changes may be prompted by request from someone else (ideally through an Issue on the GitHub page).
+This is the process for making document changes using a pull request. These changes may be prompted by request from someone else (ideally through an Issue on the GitHub page).
 
 For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
 
@@ -58,7 +58,7 @@ For document changes, it is recommended that at least one SME peer or editorial 
       :width: 700
 
 7. The reviewer(s) then review the changes and add comments to the pull request for revisions or approval.
-8. Once the reivewer(s) approves the changes, merge the pull request by clicking the green **Merge pull request** button.
+8. Once the reviewer(s) approves the changes, merge the pull request by clicking the green **Merge pull request** button.
 
    .. image:: images/merge-pull.png
       :alt: GitHub merge pull request button
