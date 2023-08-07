@@ -1,4 +1,4 @@
-.. _maintain:
+.. _maintain: 
 
 How to Edit and Maintain Documents
 ====================================
