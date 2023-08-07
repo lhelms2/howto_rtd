@@ -12,50 +12,58 @@ Document edits and revisions should be performed through either a pull request o
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
-This is the process for making a document change using a pull request. In this example, Person A is administratively in charge, person B is the person doing the edit, and person C is another documentation writer that is not in charge of this edit.
+This is the process for making a document changes using a pull request. These changes may be prompted by request from someone else (ideally through an Issue on the GitHub page).
 
-1. Person A sends an email to Person B that says, "please add this table to the front page of X documentation".
-2. Person B goes to the repository and opens the relevant source file for editing.
-3. After doing an initial pass at the table, Person B goes to the top-right of the page and clicks the 'Commit changes..." button.
+For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
+
+1. Navigate to the GitHub repository file for the page you want to modify and click on the edit button (pencil icon).
    
-   .. image:: images/commit-button.png
-      :alt: GitHub commit button
+   .. image:: images/edit-button-marked.png
+      :alt: GitHub edit button
+      :width: 700
+
+2. Make the changes. Using the preview function in GitHub can help you identify most RST syntax issues prior to committing the changes.
+
+   .. image:: images/preview-button.png
+      :alt: GitHub preview button
       :width: 400
 
-   - Person B adds "initial table add" to the "Commit message".
-   - Person B adds "Added preliminary version of table upon instructions from Person A.  Table isn't ready yet, but checking in to make sure the structure is correct and check the formatting." to the "Extended description".
-   - Person B selects "create new branch and start a pull request". This will change the "Commit changes" pop-up to the "Propose changes" pop-up.
-   - Person B clicks the "Propose changes" button.
+3. Once the changes are complete, click the green "Commit Changes" button.
+
+   .. image:: images/commit-button.png
+      :alt: GitHub commit changes button
+      :width: 500
+
+4. In the "Commit changes" pop-up window:
+   - Add a brief description of the changes in the "Commit message" field.
+   - Add a detailed description of the changes in the "Extended description" field.
+   - Select "Create a new branch for this commit and start a pull request". This will change the "Commit changes" pop-up title to "Propose changes".
+   - Click the "Propose changes" button.
 
    .. image:: images/Propose-changes-pop-up-marked.png
-      :alt: GitHub propose changes pop-up
+      :alt: GitHub propose changes pop-up window
       :width: 400
 
-4. The Open pull request window then opens and B reviews the comments for completeness and clicks the "Create pull request" button.
+5. The Open Pull request window will now open. Review the comments for completeness and click the "Create pull request" button.
 
    .. image:: images/pull-request.png
       :alt: GitHub open pull request window
       :width: 700
 
-5. Person B then goes to the pull request and adds a comment @-mentioning Person A and Person C, asking them to check the initial version.
+6. Add a comment to the pull request asking your reviewer(s) to review the changes. Use @ to mention the reviewers.
 
    .. image:: images/pull-comment.png
       :alt: GitHub pull request comment window
       :width: 700
 
-6. Person A and Person C receive emails about the comment in the pull request (just like receiving notifications about a comment on a Jira ticket).
-7. Person A replies to the thread in email, and says "Yep, the structure of the table looks good, let me know when you've filled it out completely."
-8. Person B continues to work on the edits, fills out the table, and then decides the changes are ready.  
-9. Person B comments again in the pull request, asking Person A and Person C to review and approve the changes.
-10. Person A looks at the repository and then comments in the pull request: "The table is fine in final form. Person C, please do a syntax and build check, and then Person B please commit it."
-11. Person C goes to the pull request and clicks "approve" in the review box.
-12. Person B sees the approve notification, goes to the pull request, sees the approval, checks A's message, and then clicks "Merge pull request".
+7. The reviewer(s) then review the changes and add comments to the pull request for revisions or approval.
+8. Once the reivewer(s) approves the changes, merge the pull request by clicking the green "Merge pull request" button.
 
    .. image:: images/merge-pull.png
       :alt: GitHub merge pull request button
       :width: 700
 
-13. Person B refreshes the readthedocs.io page a few minutes after merging to make sure the build finished, and the changes are correct. RTD build can take 1-3 minutes to complete.
+9. Refresh the readthedocs.io page a few minutes after merging to make sure the build finished, and the changes are correct. RTD builds can take 1-3 minutes to complete.
 
 .. _issues:
 
