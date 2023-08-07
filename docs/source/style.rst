@@ -26,11 +26,11 @@ General Writing Guidelines
 
   - Example:
     
-    - NCSA experts manage the complex requirements surrounding sensetive data.
+    - NCSA experts manage the complex requirements surrounding sensitive data.
 
   - NOT
 
-    - The complex requirements surrounding sensetive data are managed by NCSA experts.
+    - The complex requirements surrounding sensitive data are managed by NCSA experts.
 
 - Use imperative mood and talk to the user in the second person.
 
