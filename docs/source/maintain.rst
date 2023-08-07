@@ -3,20 +3,20 @@
 How to Edit and Maintain Documents
 ====================================
 
-The instructions on this page assume that you have an existing page in a GitHub repository that feeds an existing readthedocs.io page. If a page is not yet in readthedocs.io, see :ref:`create`. This page details the process for modifying part of an existing documentation page. 
+This page details the process for modifying part of an existing documentation page. These instructions assume that you have documentation in an existing GitHub repository that feeds an existing readthedocs.io page. If the documentation is not in readthedocs.io, see :ref:`create`.  
 
 These instructions assume the repository has a default that's called "main". When the readthedocs.io page builds, it pulls a copy of the repository at the "head" of the "main" branch and builds that. The head (or latest commit) of the main branch is the definitive, current version of the documentation.
 
-Document edits and revisions should be performed through either a pull request or creation of an issue. It is not recommended, in most cases, for an individual to change the document and automatically commit the change to the main branch.
+Documentation edits and revisions should be performed through either a pull request either directly or through creation of an issue. It is not recommended, in most cases, for an individual to change documentation and automatically commit the changes to the main branch.
 
 .. _pull_request:
 
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
-This is the process for making document changes using a pull request. These changes may be prompted by request from someone else (ideally through an Issue on the GitHub page).
+This is the process for making document changes using a pull request. These changes may be prompted by request from someone else (ideally through an issue on the GitHub page).
 
-For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
+The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
 
 1. Navigate to the GitHub repository file for the page you want to modify and click on the edit button (pencil icon).
    
@@ -24,7 +24,7 @@ For document changes, it is recommended that at least one SME peer or editorial 
       :alt: GitHub edit button
       :width: 700
 
-2. Make the changes. Using the preview function in GitHub can help you identify most RST syntax issues prior to committing the changes.
+2. Make the changes. Using the preview function in GitHub can help you identify most reST syntax issues prior to committing the changes.
 
    .. image:: images/preview-button.png
       :alt: GitHub preview button
@@ -47,7 +47,7 @@ For document changes, it is recommended that at least one SME peer or editorial 
         :alt: GitHub propose changes pop-up window
         :width: 500
 
-5. The Open Pull request window will now open. Review the comments for completeness and click the **Create pull request** button.
+5. The Open Pull Request window will now open. Review the comments for completeness and click the **Create pull request** button.
 
    .. image:: images/create-pull2-marked.png
       :alt: GitHub open pull request window
@@ -59,29 +59,29 @@ For document changes, it is recommended that at least one SME peer or editorial 
       :alt: GitHub pull request comment window
       :width: 700
 
-7. The reviewer(s) then review the changes and add comments to the pull request for revisions or approval.
-8. Once the reviewer(s) approves the changes, merge the pull request by clicking the green **Merge pull request** button.
+7. The reviewer(s) then reviews the changes and add comments to the pull request for revisions or approval.
+8. Once the reviewer(s) approves the changes, merge the pull request by clicking the **Merge pull request** button.
 
    .. image:: images/merge-pull.png
       :alt: GitHub merge pull request button
       :width: 700
 
-9. Refresh the readthedocs.io page a few minutes after merging to make sure the build finished, and the changes are correct. RTD builds can take 1-3 minutes to complete.
+9. Refresh the readthedocs.io page a few minutes after merging to make sure the changes render as expected. RTD builds can take 1-3 minutes to complete.
 
 .. _issues:
 
 Requesting Document Changes Using GitHub Issues
 ------------------------------------------------
 
-Instead of sending an email to someone or initiating the changes yourself and generating a pull request, you can notify the page owners that something needs to be modified/added to a page by creating an issue. Issue creation is preferred over sending an email because it creates a trackable log of requests that the document owner(s) can work through and allows others to address issues when one individual is out of office.
+Instead of sending an email or initiating the changes yourself and generating a pull request, you can notify the documentation owner(s) that something needs to be modified/added to a page by creating an issue. Creating an issue is preferred over sending an email because it creates a trackable log of requests that the documentation owner(s) can work through and allows others to address issues when an individual is out of office.
 
-1. From the readthedocs.io page click on **Read the Docs v:latest** in the bottom-left.
+1. From the readthedocs.io page, click on **Read the Docs v:latest** in the bottom-left.
 
    .. image:: images/rtd-footer.png
       :alt: Read the Docs footer button
       :width: 400
 
-2. From the menu that pops-up, select "View" from the On GitHub options.
+2. From the menu that opens, click on **View** from the On GitHub options.
 
    .. image:: images/rtd-footer-open.png
       :alt: Read the Docs footer menu opened
@@ -99,19 +99,19 @@ Instead of sending an email to someone or initiating the changes yourself and ge
       :alt: GitHub new issue button
       :width: 400
 
-5. Fill in the Title with a brief description of the modification requested.
-6. Fill in the Comment section with a detailed description of requested modification. You can also use @ to directly mention someone.
+5. Fill in the Title with a brief description of the requested modification.
+6. Fill in the Comment section with a detailed description of the requested modification. You can also use @ to directly mention someone.
 7. Once the Issue description is thoroughly filled out, click the green **Submit new issue** button towards the bottom-right.
 
    .. image:: images/issue-submit.png
       :alt: GitHub issue submit window
       :width: 700
 
-8. This will create an issue that the person(s) responsible for the documentation will be notified of and can review and modify the document, as needed.
+8. This will create an issue and the person(s) responsible for the documentation will be notified.
 
 .. _edit_review:
 
 Existing RTD Document Review/Approval
 --------------------------------------
 
-For document changes, the expectation is that at least one SME peer or editorial review will be performed, depending on the nature of the change. If it is a major section addition or rewrite, the expectation is that one SME peer review AND one editorial review will be performed prior merging the changes to the main branch. These reviews are initiated and documented by following the pull request process described above.
+The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
