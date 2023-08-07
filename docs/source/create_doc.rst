@@ -74,7 +74,7 @@ To migrate a document, you will need access to the NCSA Organization in GitHub. 
 2. Click on the **...** in the upper right and select "View Storage Format" from the menu.
 3. Copy the html out of the pop-up window.
 4. Create a blank file on your local machine. This example uses sample_raw.html.
-5. On your local machine, run the magic perl script :download:`(attached) <doc/html_transform_embedded_code_versA.pl>` to scrub out the code blocks and replace them with <pre>. 
+5. On your local machine, run the magic perl script :download:`(attached) <documents/html_transform_embedded_code_versA.pl>` to scrub out the code blocks and replace them with <pre>. 
 
    - html_transform_embedded_code_versB.pl sample_raw.html sample_blocked.html. 
    - This produces sample_blocked.html that has the block features from the wiki fixed.
