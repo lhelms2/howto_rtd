@@ -32,7 +32,7 @@ For document changes, it is recommended that at least one SME peer or editorial 
 
    .. image:: images/commit-button.png
       :alt: GitHub commit changes button
-      :width: 500
+      :width: 400
 
 4. In the "Commit changes" pop-up window:
    - Add a brief description of the changes in the "Commit message" field.
@@ -40,19 +40,19 @@ For document changes, it is recommended that at least one SME peer or editorial 
    - Select "Create a new branch for this commit and start a pull request". This will change the "Commit changes" pop-up title to "Propose changes".
    - Click the "Propose changes" button.
 
-   .. image:: images/Propose-changes-pop-up-marked.png
+   .. image:: images/propose-changes2-marked.png
       :alt: GitHub propose changes pop-up window
-      :width: 400
+      :width: 500
 
 5. The Open Pull request window will now open. Review the comments for completeness and click the "Create pull request" button.
 
-   .. image:: images/pull-request.png
+   .. image:: images/create-pull2-marked.png
       :alt: GitHub open pull request window
       :width: 700
 
 6. Add a comment to the pull request asking your reviewer(s) to review the changes. Use @ to mention the reviewers.
 
-   .. image:: images/pull-comment.png
+   .. image:: images/comment2.png
       :alt: GitHub pull request comment window
       :width: 700
 
