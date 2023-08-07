@@ -28,23 +28,24 @@ For document changes, it is recommended that at least one SME peer or editorial 
       :alt: GitHub preview button
       :width: 400
 
-3. Once the changes are complete, click the green "Commit Changes" button.
+3. Once the changes are complete, click the green **Commit Changes** button in the top-right.
 
    .. image:: images/commit-button.png
       :alt: GitHub commit changes button
       :width: 400
 
 4. In the "Commit changes" pop-up window:
+
    - Add a brief description of the changes in the "Commit message" field.
    - Add a detailed description of the changes in the "Extended description" field.
    - Select "Create a new branch for this commit and start a pull request". This will change the "Commit changes" pop-up title to "Propose changes".
-   - Click the "Propose changes" button.
+   - Click the **Propose changes** button.
 
-   .. image:: images/propose-changes2-marked.png
-      :alt: GitHub propose changes pop-up window
-      :width: 500
+     .. image:: images/propose-changes2-marked.png
+        :alt: GitHub propose changes pop-up window
+        :width: 500
 
-5. The Open Pull request window will now open. Review the comments for completeness and click the "Create pull request" button.
+5. The Open Pull request window will now open. Review the comments for completeness and click the **Create pull request** button.
 
    .. image:: images/create-pull2-marked.png
       :alt: GitHub open pull request window
@@ -57,7 +58,7 @@ For document changes, it is recommended that at least one SME peer or editorial 
       :width: 700
 
 7. The reviewer(s) then review the changes and add comments to the pull request for revisions or approval.
-8. Once the reivewer(s) approves the changes, merge the pull request by clicking the green "Merge pull request" button.
+8. Once the reivewer(s) approves the changes, merge the pull request by clicking the green **Merge pull request** button.
 
    .. image:: images/merge-pull.png
       :alt: GitHub merge pull request button
@@ -72,7 +73,7 @@ Requesting Document Changes Using GitHub Issues
 
 Instead of sending an email to someone or initiating the changes yourself and generating a pull request, you can notify the page owners that something needs to be modified/added to a page by creating an issue. Issue creation is preferred over sending an email because it creates a trackable log of requests that the document owner(s) can work through and allows others to address issues when one individual is out of office.
 
-1. From the readthedocs.io page click on "Read the Docs v:latest" in the bottom-left.
+1. From the readthedocs.io page click on **Read the Docs v:latest** in the bottom-left.
 
    .. image:: images/rtd-footer.png
       :alt: Read the Docs footer button
@@ -90,15 +91,15 @@ Instead of sending an email to someone or initiating the changes yourself and ge
       :alt: GitHub menu bar
       :width: 700
 
-4. Click the green "New issue" button in the top-right to initiate a new issue.
+4. Click the green **New issue** button in the top-right to initiate a new issue.
 
    .. image:: images/new-issue-button.png
       :alt: GitHub new issue button
       :width: 400
 
 5. Fill in the Title with a brief description of the modification requested.
-6. Fill in the Comment section with a detailed description of requested modification. You can also directly mention someone using the @ button.
-7. Once the Issue description is thoroughly filled out, click the green "Submit new issue" button towards the bottom-right.
+6. Fill in the Comment section with a detailed description of requested modification. You can also use @ to directly mention someone.
+7. Once the Issue description is thoroughly filled out, click the green **Submit new issue** button towards the bottom-right.
 
    .. image:: images/issue-submit.png
       :alt: GitHub issue submit window
@@ -108,9 +109,7 @@ Instead of sending an email to someone or initiating the changes yourself and ge
 
 .. _edit_review:
 
-Existing RTD Document Review/Approval Process
-----------------------------------------------
+Existing RTD Document Review/Approval
+--------------------------------------
 
-For document changes, it is recommended that at least one SME peer or editorial review be performed, depending on the nature of the change. If it is a major section addition or rewrite, it is recommended that one SME peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process described above.
-
-For the recommended review/approval process of new documents, see :ref:`create_review`.
+For document changes, the expectation is that at least one SME peer or editorial review will be performed, depending on the nature of the change. If it is a major section addition or rewrite, the expectation is that one SME peer review AND one editorial review will be performed prior merging the changes to the main branch. These reviews are initiated and documented by following the pull request process described above.
