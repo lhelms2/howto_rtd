@@ -103,9 +103,9 @@ The expectation is that new RTD documentation will have at least one SME/peer re
 10. Copy the contents of the final .rst file on your local machine (sample_blocked_pruned.rst in the example) into the GitHub repository file (index.rst in the example).
 11. Use the preview function in GitHub *before* committing changes. This will help you identify most syntax issues prior to committing the changes.
 
-     .. image:: images/preview-button.png
-         :alt: GitHub preview button
-         :width: 400
+    .. image:: images/preview-button.png
+       :alt: GitHub preview button
+       :width: 400
 
 12. Click the **Commit changes...** button in the top-right.
 
