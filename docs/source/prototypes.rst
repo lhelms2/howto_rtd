@@ -5,7 +5,7 @@ Prototype Read the Docs Documents
 
 The process of migrating existing NCSA documentation to Read the Docs has been prototyped on several pages, two examples are available below. 
 
-Note that the Delta documentation prototype is months old, so the official wiki pages have continued to be updated while these readthedocs.io pages are a snapshot.
+Note that the linked Delta documentation prototype is months old, so the official wiki pages have continued to be updated while these readthedocs.io pages are a snapshot.
 
 Delta Documentation
 --------------------
