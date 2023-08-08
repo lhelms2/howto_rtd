@@ -24,7 +24,7 @@ The expectation for documentation changes is that at least one SME/peer or edito
       :alt: GitHub edit button
       :width: 700
 
-2. Make the changes. Using the preview function in GitHub can help you identify most reST syntax issues prior to committing the changes.
+2. Make the changes. Using the preview function in GitHub can help you identify most reStructuredText syntax issues prior to committing the changes.
 
    .. image:: images/preview-button.png
       :alt: GitHub preview button
@@ -66,7 +66,7 @@ The expectation for documentation changes is that at least one SME/peer or edito
       :alt: GitHub merge pull request button
       :width: 700
 
-9. Refresh the readthedocs.io page a few minutes after merging to make sure the changes render as expected. RTD builds can take 1-3 minutes to complete.
+9. Refresh the readthedocs.io page a few minutes after merging to make sure the changes render as expected. Read the Docs builds can take 1-3 minutes to complete.
 
 .. _issues:
 
@@ -111,7 +111,7 @@ Instead of sending an email or initiating the changes yourself and generating a 
 
 .. _edit_review:
 
-Existing RTD Document Review/Approval
---------------------------------------
+Existing Read the Docs Document Review/Approval
+------------------------------------------------
 
 The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
