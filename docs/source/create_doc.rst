@@ -48,15 +48,17 @@ The expectation is that new RTD documentation will have at least one SME/peer re
          :alt: GitHub commit button
          :width: 400
 
-   - In the commit changes pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' field and a more detailed description in the 'Extended description' field.
-     
-   - Click the **Commit changes** button.
+   - In the commit changes pop-up window:
 
-     During initial documentation development (before it is live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+     - Add a brief description of the changes in the “Commit message” field.
+     - Add a detailed description of the changes in the “Extended description” field.
+     - Click the **Commit changes** button. 
 
-     .. image:: images/commit-pop-up-marked.png
-         :alt: GitHub commit changes pop-up window
-         :width: 400
+       During initial documentation development (before it is live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+
+       .. image:: images/commit-pop-up-marked.png
+          :alt: GitHub commit changes pop-up window
+          :width: 400
 
 5. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
 6. If the changes do not reflect after 3 minutes, check your reStructuredText (reST) in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
@@ -101,33 +103,42 @@ The expectation is that new RTD documentation will have at least one SME/peer re
 8. If you have not already, create a GitHub repository for the documentation by following the steps in :ref:`drafting_new`.
 9. Open the applicable .rst file from the templated files in your GitHub repository or create an empty .rst file in the repository, if needed. This example will paste the output into index.rst in the GitHub repository.
 10. Copy the contents of the final .rst file on your local machine (sample_blocked_pruned.rst in the example) into the GitHub repository file (index.rst in the example).
-11. Use the preview function in GitHub *before* committing changes. This will help you identify most syntax issues prior to committing the changes.
 
-    .. image:: images/preview-button.png
-       :alt: GitHub preview button
-       :width: 400
+    - Click the pencil icon in the top-right to edit the file and paste the contents into the editor.
 
-12. Click the **Commit changes...** button in the top-right.
+      .. image:: images/edit-button-marked.png
+         :alt: GitHub edit button
+         :width: 700
 
-    .. image:: images/commit-button.png
-       :alt: GitHub commit changes button
-       :width: 400
+    - Use the preview function in GitHub *before* committing changes. This will help you identify most syntax issues prior to committing the changes.
 
-    - In the commit changes pop-up window, include a brief description of the change(s) you made to the file in the 'Commit message' line and a more detailed description in the 'Extended description'.
+      .. image:: images/preview-button.png
+          :alt: GitHub preview button
+          :width: 400
 
-    - Click the **Commit changes** button.
+    - Save changes by committing them using the green **Commit changes...** button in the top-right.
 
-      During initial documentation development (before it goes live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+      .. image:: images/commit-button.png
+          :alt: GitHub commit button
+          :width: 400
 
-      .. image:: images/commit-pop-up-marked.png
-          :alt: GitHub commit changes pop-up window
-          :width: 500
+    - In the commit changes pop-up window:
 
-13. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
-14. If the changes do not reflect after 3 minutes, check your reST in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
-15. Repeat this process for any additional wiki pages that you want to migrate into your RTD documentation. You will likely need to cut contents out the .rst file that was converted from html and paste it into various files (index, user guide, quick start, help, ...) in the GitHub repository to align with the GitHub NCSA documentation template.
-16. When content entry is complete, submit the documentation to at least one SME/peer reviewer AND one editorial reviewer.
-17. After reviewer comments are incorporated, the new document can be approved to go live to users.
+      - Add a brief description of the changes in the “Commit message” field.
+      - Add a detailed description of the changes in the “Extended description” field.
+      - Click the **Commit changes** button. 
+
+        During initial documentation development (before it is live to users), it is acceptable to build the documentation by committing changes to the main branch. For information on creating a pull request see :ref:`pull_request`.
+
+        .. image:: images/commit-pop-up-marked.png
+           :alt: GitHub commit changes pop-up window
+           :width: 400
+
+11. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
+12. If the changes do not reflect after 3 minutes, check your reST in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
+13. Repeat this process for any additional wiki pages that you want to migrate into your RTD documentation. You will likely need to cut contents out the .rst file that was converted from html and paste it into various files (index, user guide, quick start, help, ...) in the GitHub repository to align with the GitHub NCSA documentation template.
+14. When content entry is complete, submit the documentation to at least one SME/peer reviewer AND one editorial reviewer.
+15. After reviewer comments are incorporated, the new document can be approved to go live to users.
 
 .. _create_review:
 
