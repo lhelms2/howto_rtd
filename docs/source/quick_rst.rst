@@ -117,7 +117,7 @@ External Targets
 Internal targets
 ~~~~~~~~~~~~~~~~~
 
-- Create hyperlinks to sections within the page by preceding the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
+- Create hyperlinks to sections within the page by appending an underscore to the end of the heading name. If the heading has spaces or punctuation, surround it with backticks (`).
 
   .. code-block:: rst
 
@@ -125,7 +125,7 @@ Internal targets
 
   This links to the Headings_ section.
 
-- Link to a section on another page within the document by adding a label to the section and using the label as the target. See example below. 
+- Link to a section on another page within the documentation by adding a label to the section and using the label as the target. See example below. 
 
   .. code-block:: rst
 
@@ -198,7 +198,7 @@ This is a numbered list:
 Images
 -------
 
-Images are inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg . 
+Images are inserted using either the .. image:: path/filename.jpg or .. figure:: path/filename.jpg tag. 
 
 The image options are indented under the tag, with no blank line below the tag. The most common image options are alt text (:alt:) and width (:width:).
 
@@ -229,7 +229,7 @@ A figure is an image with a caption.
 Code Block
 -----------
 
-Code block is inserted using .. code-block:: <language>. 
+Code block is inserted using the .. code-block:: <language> tag. 
 
 The content of the code block is indented under the tag with one blank line below the tag. If you omit the blank line or do not indent, the code block will not render correctly. 
 
@@ -258,7 +258,7 @@ Add a label to a section using the syntax below.
 
   .. _alias:
 
-Call the label in another section of the document as shown below.
+Call the label in another section of the documentation as shown below.
 
 .. code-block:: rst
 
@@ -269,7 +269,7 @@ Call the label in another section of the document as shown below.
 Table of Contents
 ------------------
 
-Create a table of contents with the tag .. toctree:: . The recommended max depth of a toctree is 2. 
+Create a table of contents with the .. toctree:: tag. The recommended max depth of a toctree is 2. 
 
 There is an example of a toctree on the home page of this how to document (view on GitHub).
 
@@ -286,7 +286,7 @@ There is an example of a toctree on the home page of this how to document (view 
 Notes and Warnings
 -------------------
 
-Notes and warnings use the tags .. note:: and .. warning:: , respectively. 
+Notes and warnings use the .. note:: and .. warning:: tags, respectively. 
 
 The content of the note or warning is indented under the tag, with one blank line below the tag.
 
