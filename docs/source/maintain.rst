@@ -3,22 +3,22 @@
 How to Edit and Maintain Documents
 ====================================
 
-This page details the process for modifying part of an existing documentation page. These instructions assume that you have documentation in an existing GitHub repository that feeds an existing readthedocs.io page. If the documentation is not in readthedocs.io, see :ref:`create`.  
+This page details the process for revising part of an existing documentation page. These instructions assume that you have documentation in an existing GitHub repository that feeds an existing readthedocs.io page. If the documentation is not in readthedocs.io, see :ref:`create`.  
 
 These instructions assume the repository has a default that's called "main". When the readthedocs.io page builds, it pulls a copy of the repository at the "head" of the "main" branch and builds that. The head (or latest commit) of the main branch is the definitive, current version of the documentation.
 
-Documentation edits and revisions should be performed through either a pull request either directly or through creation of an issue. It is not recommended, in most cases, for an individual to change documentation and automatically commit the changes to the main branch.
+Documentation edits and revisions should be performed through either a pull request directly or through creation of an issue. It is not recommended, in most cases, for an individual to change documentation and automatically commit the changes to the main branch.
 
 .. _pull_request:
 
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
-This is the process for making document changes using a pull request. These changes may be prompted by request from someone else (ideally through an issue on the GitHub page).
+This is the process for making document changes using a pull request. These changes may be prompted based on changed you know need made or by request from someone else (ideally through an issue on the GitHub page).
 
-The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
+The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging the change to the main branch. These reviews are initiated and documented by following the pull request process.
 
-1. Navigate to the GitHub repository file for the page you want to modify and click on the edit button (pencil icon).
+1. Navigate to the GitHub repository file for the page you want to change and click on the edit button (pencil icon).
    
    .. image:: images/edit-button-marked.png
       :alt: GitHub edit button
@@ -59,7 +59,7 @@ The expectation for documentation changes is that at least one SME/peer or edito
       :alt: GitHub pull request comment window
       :width: 700
 
-7. The reviewer(s) then reviews the changes and add comments to the pull request for revisions or approval.
+7. The reviewer(s) then reviews the changes and adds comments to the pull request for revisions or approval.
 8. Once the reviewer(s) approves the changes, merge the pull request by clicking the **Merge pull request** button.
 
    .. image:: images/merge-pull.png
@@ -73,7 +73,7 @@ The expectation for documentation changes is that at least one SME/peer or edito
 Requesting Document Changes Using GitHub Issues
 ------------------------------------------------
 
-Instead of sending an email or initiating the changes yourself and generating a pull request, you can notify the documentation owner(s) that something needs to be modified/added to a page by creating an issue. Creating an issue is preferred over sending an email because it creates a trackable log of requests that the documentation owner(s) can work through and allows others to address issues when an individual is out of office.
+Instead of sending an email or initiating the changes yourself and generating a pull request, you can notify the documentation owner(s) that something needs to be revised/added to a page by creating an issue. Creating an issue is preferred over sending an email because it creates a trackable log of requests that the documentation owner(s) can work through and allows others to address issues when an individual is out of office.
 
 1. From the readthedocs.io page, click on **Read the Docs v:latest** in the bottom-left.
 
@@ -87,7 +87,7 @@ Instead of sending an email or initiating the changes yourself and generating a 
       :alt: Read the Docs footer menu opened
       :width: 400
 
-3. On the GitHub page, select "Issues" from the top menu bar.
+3. On the GitHub page, click **Issues** from the top menu bar.
 
    .. image:: images/menu-bar-issue.png
       :alt: GitHub menu bar
@@ -99,15 +99,15 @@ Instead of sending an email or initiating the changes yourself and generating a 
       :alt: GitHub new issue button
       :width: 400
 
-5. Fill in the Title with a brief description of the requested modification.
-6. Fill in the Comment section with a detailed description of the requested modification. You can also use @ to directly mention someone.
-7. Once the Issue description is thoroughly filled out, click the green **Submit new issue** button towards the bottom-right.
+   - Fill in the Title with a brief description of the requested change.
+   - Fill in the Comment section with a detailed description of the requested change. You can also use @ to directly mention someone.
+   - Once the Issue description is thoroughly filled out, click the green **Submit new issue** button towards the bottom-right.
 
-   .. image:: images/issue-submit.png
-      :alt: GitHub issue submit window
-      :width: 700
+     .. image:: images/issue-submit.png
+        :alt: GitHub issue submit window
+        :width: 700
 
-8. This will create an issue and the person(s) responsible for the documentation will be notified.
+5. This will create an issue and the person(s) responsible for the documentation will be notified.
 
 .. _edit_review:
 
