@@ -36,7 +36,7 @@ The expectation is that new RTD documentation will have at least one SME/peer re
         :alt: GitHub edit button
         :width: 700
 
-   - Use the preview function in GitHub *before* committing changes. This will help you identify most syntax issues prior to committing the changes.
+   - Use the preview function in GitHub to identify reStructuredText syntax issues *before* committing the changes.
 
      .. image:: images/preview-button.png
          :alt: GitHub preview button
@@ -110,7 +110,7 @@ The expectation is that new RTD documentation will have at least one SME/peer re
          :alt: GitHub edit button
          :width: 700
 
-    - Use the preview function in GitHub *before* committing changes. This will help you identify most syntax issues prior to committing the changes.
+    - Use the preview function in GitHub to identify reStructuredText syntax issues *before* committing the changes.
 
       .. image:: images/preview-button.png
           :alt: GitHub preview button
