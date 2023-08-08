@@ -3,7 +3,7 @@
 Getting Help
 =============
 
-A good resource for Sphinx/reST is available here_.
+A good resource for reStructuredText/Sphinx is available here_.
 
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
