@@ -131,7 +131,7 @@ The expectation is that new RTD documentation will have at least one SME/peer re
 
 .. _create_review:
 
-New Read the Docs Document Review/Approval
+New Document Review/Approval
 -------------------------------------------
 
 The expectation is that new RTD documentation will have at least one SME/peer review AND one editorial review prior to going live to users to minimize errors in the initial user-presented product.
