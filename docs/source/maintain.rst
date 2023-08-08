@@ -24,7 +24,7 @@ The expectation for documentation changes is that at least one SME/peer or edito
       :alt: GitHub edit button
       :width: 700
 
-2. Make the changes. Using the preview function in GitHub can help you identify most reStructuredText syntax issues prior to committing the changes.
+2. Make the changes. Use the preview function in GitHub to identify reStructuredText syntax issues prior to committing the changes.
 
    .. image:: images/preview-button.png
       :alt: GitHub preview button
