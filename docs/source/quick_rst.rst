@@ -3,20 +3,18 @@
 Quick Start Guide to reStructuredText
 ======================================
 
-This quick start guide is intended to cover the basics of reStructuredText (reST) so that you can start generating your user documentation. More information about reST is available `here`_.
+This quick start guide is intended to cover the basics of reStructuredText (reST) so that you can start generating your user documentation. More comprehensive information about reST is available `here`_.
 
 .. _here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
 The Importance of Indentation and Line Spacing
 -----------------------------------------------
 
-Indentation is critical in reST. Many reST tags begin with a certain set of characters and those are assumed to start at the left margin and the Sphinx engine then assumes that everything after the tag that is indented is also part of that tag. 
+Indentation and line spacing are critical in reST.
 
-If you fail to indent tag contents after the tag, they will not be associated with the tag. 
+Many reST tags begin with characters that are assumed to start at the left margin and the Sphinx engine then assumes that everything indented after the tag is also part of that tag. If you inadvertently indent contents after a tag that you do not want associated with that tag, they are assumed to be associated with the tag and will result in rendering issues. If you fail to indent tag contents after the tag, they will not be associated with the tag and will result in rendering issues. 
 
-If you inadvertently indent contents after a tag that you do not want associated with that tag, they are assumed to be associated with the tag and may result in rendering issues.
-
-Line spacing is also important in reST. Having a blank line where one *is not* supposed to be or the absence of a blank line where one *is* supposed to be will result in rendering issues.
+Having a blank line where one *is not* supposed to be or the absence of a blank line where one *is* supposed to be will also result in rendering issues.
 
 If you are having issues with something rendering correctly, check your indentation and line spacing first!
 
@@ -81,66 +79,66 @@ Make a word or phrase display in italics by surrounding it with single asterisks
 This is an example of *italics*
 
 Hyperlinks
-~~~~~~~~~~~
+-----------
 
 External Targets
-$$$$$$$$$$$$$$$$$
+~~~~~~~~~~~~~~~~~
 
-Create single-word hyperlinks to external targets by appending an underscore to the end of the word and defining the target on a separate line. See the example below.
+- Create single-word hyperlinks to external targets by appending an underscore to the end of the word and defining the target on a separate line. See the example below.
 
-.. code-block:: rst
+  .. code-block:: rst
+
+    External hyperlink example with Google_.
+
+    .. _Google: https://www.google.com
 
   External hyperlink example with Google_.
 
   .. _Google: https://www.google.com
 
-External hyperlink example with Google_.
+- Create hyperlinks that include spacing or punctuation by surrounding the word or phrase with backticks (`) prior to appending the underscore.
 
-.. _Google: https://www.google.com
+  .. code-block:: rst
 
-Create hyperlinks that include spacing or punctuation by surrounding the word or phrase with backticks (`) prior to appending the underscore.
+    This `links to Wikipedia`_
 
-.. code-block:: rst
+    .. _links to Wikipedia: https://en.wikipedia.org
 
   This `links to Wikipedia`_
 
   .. _links to Wikipedia: https://en.wikipedia.org
 
-This `links to Wikipedia`_
+- Targets can also be defined inline, as shown below.
 
-.. _links to Wikipedia: https://en.wikipedia.org
+  .. code-block:: rst
 
-Targets can also be defined inline, as shown below.
-
-.. code-block:: rst
-
-  This `links to Wikipedia <https://en.wikipedia.org>`_
+    This `links to Wikipedia <https://en.wikipedia.org>`_
 
 Internal targets
-$$$$$$$$$$$$$$$$$
+~~~~~~~~~~~~~~~~~
 
-Create hyperlinks to sections within the page by preceding the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
+- Create hyperlinks to sections within the page by preceding the heading with an underscore. If the heading has spaces or punctuation, surround it with backticks (`).
 
-.. code-block:: rst
+  .. code-block:: rst
+
+    This links to the Headings_ section.
 
   This links to the Headings_ section.
 
-This links to the Headings_ section.
+- Link to a section on another page within the document by adding a label to the section and using the label as the target. See example below. 
 
-Link to another page section within the document by adding a label to the section and using the label as the target. See example below. 
+  .. code-block:: rst
 
-.. code-block:: rst
+    .. _style:
 
-  .. _style:
+    NCSA User Documentation Style Guide
+    ====================================
 
-  NCSA User Documentation Style Guide
-  ====================================
+  .. code-block:: rst
 
-.. code-block:: rst
+    This links to the :ref:`style`.
 
   This links to the :ref:`style`.
-
-This links to the :ref:`style`.
 
 Lists
 ------
@@ -200,7 +198,9 @@ This is a numbered list:
 Images
 -------
 
-Images are inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg.
+Images are inserted using .. image:: path/filename.jpg or .. figure:: path/filename.jpg . 
+
+The image options are indented under the tag, with no blank line below the tag. The most common image options are alt text (:alt:) and width (:width:).
 
 A figure is an image with a caption.
 
@@ -231,7 +231,7 @@ Code Block
 
 Code block is inserted using .. code-block:: <language>. 
 
-The content of the code block is then indented under the .. code-block:: tag with one blank line below the tag. If you omit the blank line or don't indent, the code block will not render correctly. 
+The content of the code block is indented under the tag with one blank line below the tag. If you omit the blank line or do not indent, the code block will not render correctly. 
 
 Adding the language at the end of the tag allows the code block to render with syntax highlighting.
 
@@ -271,7 +271,7 @@ Table of Contents
 
 Create a table of contents with the tag .. toctree:: . The recommended max depth of a toctree is 2. 
 
-There is an example of a toctree on the landing page of this how to document (view on GitHub).
+There is an example of a toctree on the home page of this how to document (view on GitHub).
 
 .. code-block:: rst
 
@@ -286,7 +286,9 @@ There is an example of a toctree on the landing page of this how to document (vi
 Notes and Warnings
 -------------------
 
-Notes and warnings use the tags .. note:: and .. warning:: , respectively. The content of the note or warning is then indented on subsequent lines, with one blank line below the tag.
+Notes and warnings use the tags .. note:: and .. warning:: , respectively. 
+
+The content of the note or warning is indented under the tag, with one blank line below the tag.
 
 .. code-block:: rst
 
@@ -296,7 +298,7 @@ Notes and warnings use the tags .. note:: and .. warning:: , respectively. The c
 
   .. warning::
 
-    This is a warning. Warnings are used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
+    This is a warning. Warnings are used for information the user needs to know to avoid *negative consequences*. Use warnings sparingly.
 
 .. note::
 
@@ -304,7 +306,7 @@ Notes and warnings use the tags .. note:: and .. warning:: , respectively. The c
 
 .. warning::
 
-  This is a warning. Warnings are used for information the user needs to know to avoid negative consequences. Use warnings sparingly.
+  This is a warning. Warnings are used for information the user needs to know to avoid *negative consequences*. Use warnings sparingly.
 
 Tables
 -------
