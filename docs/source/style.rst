@@ -8,7 +8,7 @@ Follow this style guide when developing, editing, or reviewing NCSA user documen
 Default Style Manual
 ----------------------
 
-NCSA user documentation should follow the Chicago Manual of Style (CMOS), `available online`_ through the UIUC Library.
+NCSA user documentation should follow the Chicago Manual of Style, `available online`_ through the UIUC Library.
 
 .. _available online: https://www-chicagomanualofstyle-org.proxy2.library.illinois.edu/home.html
 
@@ -105,16 +105,16 @@ Include *meaningful* alt text in images to support accessibility. `Web Accessibi
 Table of Contents
 ------------------
 
-The recommend formatting for a :ref:`toc` is with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA documentation template`_.
+The recommend formatting for a :ref:`toc` is with a max depth of 2 for readability. This is preset in the index.rst file in the `NCSA user documentation template`_.
 
-.. _NCSA documentation template: https://github.com/ncsa/user_documentation_template
+.. _NCSA user documentation template: https://github.com/ncsa/user_documentation_template
 
 Notes and Warnings
 -------------------
 
 Notes are for information the user needs to pay particular attention to. Use notes sparingly or the effect will be lost.
 
-Warnings are for information that the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
+Warnings are for information the user needs to know to avoid a *negative consequence*. Use warnings sparingly or the effect will be lost.
 
 How to insert :ref:`warning` in reST.
 
@@ -130,6 +130,6 @@ General descriptions of NCSA resources should maintain consistency with the `NCS
 Naming Conventions
 --------------------
 
-Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references should simply be stated as "Slurm" (title case).
+Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references on a page should simply be stated as "Slurm" (title case).
 
 Spack - Use title case
