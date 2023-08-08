@@ -53,7 +53,7 @@ General Writing Guidelines
 Headings
 ----------
 
-Follow the below :ref:`headings_rst` heirarchy in reStructuredText (reST).
+Follow the below :ref:`headings_rst` hierarchy in reStructuredText (reST).
 
 .. code-block:: rst
 
