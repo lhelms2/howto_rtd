@@ -59,12 +59,12 @@ The expectation is that new RTD documentation will have at least one SME/peer re
          :width: 400
 
 5. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
-6. If the changes do not reflect after 3 minutes, check your reST in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
-7. When content entry is complete, submit the documentation to at least one SME peer reviewer AND one editorial reviewer.
+6. If the changes do not reflect after 3 minutes, check your reStructuredText (reST) in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
+7. When content entry is complete, submit the documentation to at least one SME/peer reviewer AND one editorial reviewer.
 8. After reviewer comments are incorporated, the new document can be approved to go live to users.
 
-Migrating an Existing Document into RTD
-----------------------------------------
+Migrating an Existing Document into Read the Docs
+---------------------------------------------------
 
 To migrate content from an existing wiki page into RTD, follow the below steps to convert the wiki html into reST.
 
@@ -126,13 +126,13 @@ The expectation is that new RTD documentation will have at least one SME/peer re
 13. If your repository has been imported into RTD, after you commit changes to the GitHub repository, wait for RTD to rebuild the page (can take 1-3 minutes) and refresh the RTD page to view your changes. 
 14. If the changes do not reflect after 3 minutes, check your reST in the GitHub repository for syntax errors; reST is particularly sensitive to indentation and line spacing. 
 15. Repeat this process for any additional wiki pages that you want to migrate into your RTD documentation. You will likely need to cut contents out the .rst file that was converted from html and paste it into various files (index, user guide, quick start, help, ...) in the GitHub repository to align with the GitHub NCSA documentation template.
-16. When content entry is complete, submit the documentation to at least one SME peer reviewer AND one editorial reviewer.
+16. When content entry is complete, submit the documentation to at least one SME/peer reviewer AND one editorial reviewer.
 17. After reviewer comments are incorporated, the new document can be approved to go live to users.
 
 .. _create_review:
 
-New RTD Document Review/Approval
----------------------------------
+New Read the Docs Document Review/Approval
+-------------------------------------------
 
 The expectation is that new RTD documentation will have at least one SME/peer review AND one editorial review prior to going live to users to minimize errors in the initial user-presented product.
 
