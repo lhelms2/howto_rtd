@@ -7,14 +7,14 @@ This page details the process for revising part of an existing documentation pag
 
 These instructions assume the repository has a default that's called "main". When the readthedocs.io page builds, it pulls a copy of the repository at the "head" of the "main" branch and builds that. The head (or latest commit) of the main branch is the definitive, current version of the documentation.
 
-Documentation edits and revisions should be performed through either a pull request directly or through creation of an issue. It is not recommended, in most cases, for an individual to change documentation and automatically commit the changes to the main branch.
+Documentation edits and revisions should be performed through either a pull request or creation of an issue. It is not recommended, in most cases, for an individual to change documentation and automatically commit the changes to the main branch.
 
 .. _pull_request:
 
 Editing Documents Using GitHub Pull Requests
 ---------------------------------------------
 
-This is the process for making document changes using a pull request. These changes may be prompted based on changed you know need made or by request from someone else (ideally through an issue on the GitHub page).
+This is the process for making document changes using a pull request. These changes may be prompted based on changes you know need made or by request from someone else (ideally through an issue on the GitHub page).
 
 The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging the change to the main branch. These reviews are initiated and documented by following the pull request process.
 
