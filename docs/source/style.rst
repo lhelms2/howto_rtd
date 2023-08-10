@@ -53,6 +53,8 @@ General Writing Guidelines
 Headings
 ----------
 
+Write headings in title case.
+
 Follow the below :ref:`headings_rst` hierarchy in reStructuredText (reST).
 
 .. code-block:: rst
