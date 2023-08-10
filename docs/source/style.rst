@@ -135,3 +135,5 @@ Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux 
 Spack - Use title case.
 
 Unix - Use title case (not UNIX).
+
+URL - Use all caps.
