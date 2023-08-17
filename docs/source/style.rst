@@ -133,6 +133,8 @@ General descriptions of NCSA resources should maintain consistency with the `NCS
 Naming Conventions
 --------------------
 
+Slack - Use title case.
+
 Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references on a page should simply be stated as "Slurm" (title case).
 
 Spack - Use title case.
