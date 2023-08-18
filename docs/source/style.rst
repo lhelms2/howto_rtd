@@ -135,6 +135,10 @@ Naming Conventions
 
 Duo (MFA) - Use title case.
 
+i/o - Use lowercase.
+
+POSIX - Use all caps.
+
 Slack - Use title case.
 
 Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references on a page should simply be stated as "Slurm" (title case).
