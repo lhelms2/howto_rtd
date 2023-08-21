@@ -133,9 +133,13 @@ General descriptions of NCSA resources should maintain consistency with the `NCS
 Naming Conventions
 --------------------
 
+CUDA - Use all caps.
+
 Duo (MFA) - Use title case.
 
 i/o - Use lowercase.
+
+Lmod - Use title case.
 
 POSIX - Use all caps.
 
