@@ -139,6 +139,8 @@ Duo (MFA) - Use title case.
 
 i/o - Use lowercase.
 
+Jupyter - Use title case.
+
 Lmod - Use title case.
 
 POSIX - Use all caps.
