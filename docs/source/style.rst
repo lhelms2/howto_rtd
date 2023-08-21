@@ -145,6 +145,8 @@ POSIX - Use all caps.
 
 PyTorch - Use unique casing shown.
 
+ROCm - Use unique casing shown.
+
 Slack - Use title case.
 
 Slurm - On first use, can refer to it as "Slurm, formerly known as Simple Linux Utility for Resource Management (SLURM)", second and all future references on a page should simply be stated as "Slurm" (title case).
