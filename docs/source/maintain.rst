@@ -117,10 +117,15 @@ Existing Document Review/Approval
 The expectation for documentation changes is that at least one SME/peer or editorial review will be performed, depending on the nature of the change. If the change is a major section addition or rewrite, it is recommended that one SME/peer review AND one editorial review be performed prior merging a change to the main branch. These reviews are initiated and documented by following the pull request process.
 
 
-.. collapse:: testing a code block collapse
+.. raw:: html
 
-   .. code-block::
+   <details>
+   <summary><a>big code</a></summary>
 
-      testing the code block collapse function
+.. code-block:: python
 
+   lots_of_code = "this text block"
 
+.. raw:: html
+
+   </details>
