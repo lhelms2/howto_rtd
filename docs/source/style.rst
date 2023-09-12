@@ -112,6 +112,8 @@ Include *meaningful* alt text in images to support accessibility. `Web Accessibi
 
 .. _Web Accessibility in Mind (WebAIM): https://webaim.org/techniques/alttext/
 
+Do not include the words 'image of' or 'picture of' in alt text, it is redundant.
+
 Table of Contents
 ------------------
 
