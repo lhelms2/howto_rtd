@@ -98,6 +98,13 @@ Use :ref:`bullet` for items when the order *does not* matter.
 
 Use :ref:`numbered` for items when the order matters.
 
+Hyperlinks
+-----------
+
+Create hyperlinks that are descriptie and make sense out of context, for accessibility. For example, instead of 'click here', the hyperlink text for the NCSA homepage would be 'NCSA homepage'. 
+
+Do not include the word 'link' in the hyperlink text, it is redundant; for accessibility, a screen reader will automatically announce the presence of a link.
+
 Images
 -------
 
